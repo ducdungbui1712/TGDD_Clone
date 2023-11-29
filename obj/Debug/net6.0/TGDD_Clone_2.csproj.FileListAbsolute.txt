@@ -185,3 +185,4 @@ C:\Blazor Learning\TGDD_Clone\bin\Debug\net6.0\Microsoft.JSInterop.dll
 C:\Blazor Learning\TGDD_Clone\bin\Debug\net6.0\System.IO.Pipelines.dll
 C:\Blazor Learning\TGDD_Clone\bin\Debug\net6.0\System.Text.Json.dll
 C:\Blazor Learning\TGDD_Clone\obj\Debug\net6.0\jsmodules\jsmodules.build.manifest.json
+C:\Blazor Learning\TGDD_Clone\bin\Debug\net6.0\Microsoft.Fast.Components.FluentUI.Icons.dll

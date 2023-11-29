@@ -1,0 +1,31 @@
+@inject HttpClient HttpClient
+@inject NavigationManager NavigationManager
+
+<div>
+    <h4>Điện Thoại Hot</h4>
+
+    <FluentHorizontalScroll class="right-gradient" Speed="1000" Easing="ScrollEasing.EaseInOut">
+    @foreach (var phone in Phones) {
+            <FluentCard class="m-3 text-center">
+                            <img class="card-img-top w-70 img-fluid" src="@phone.ImageUrl" alt="..." />
+                            <p class="m-2">@phone.Model</p>
+                            <strong class="m-2 price">Giá: @phone.GetFormattedBasePrice()</strong>
+                            <FluentButton IconStart="@(new Icons.Regular.Size24.Cart())">
+                                                Mua Ngay
+                            </FluentButton>
+            </FluentCard>
+    }
+    </FluentHorizontalScroll>
+
+
+
+
+</div>
+
+@code{
+    List<Phone> Phones = new List<Phone>();
+    protected override async Task OnInitializedAsync()
+    {
+    Phones = await HttpClient.GetFromJsonAsync<List<Phone>>(NavigationManager.BaseUri + "phones");
+    }
+}

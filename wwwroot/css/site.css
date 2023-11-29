@@ -62,3 +62,18 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+::deep > .right-gradient {
+    --scroll-fade-next: var(--fill-color)
+}
+
+::deep > .both-gradient {
+    --scroll-fade-next: var(--fill-color);
+    --scroll-fade-previous: var(--fill-color)
+}
+
+.price {
+    color: #d0021c;
+    font-size: 18px;
+    display: block;
+}

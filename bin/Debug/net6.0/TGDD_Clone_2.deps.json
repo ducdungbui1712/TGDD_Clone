@@ -11,6 +11,7 @@
           "Microsoft.EntityFrameworkCore": "6.0.8",
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.8",
           "Microsoft.Fast.Components.FluentUI": "3.4.0",
+          "Microsoft.Fast.Components.FluentUI.Icons": "3.4.0",
           "System.Net.Http.Json": "6.0.0"
         },
         "runtime": {
@@ -256,6 +257,17 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.Fast.Components.FluentUI.dll": {
+            "assemblyVersion": "3.4.0.23332",
+            "fileVersion": "3.4.0.23332"
+          }
+        }
+      },
+      "Microsoft.Fast.Components.FluentUI.Icons/3.4.0": {
+        "dependencies": {
+          "Microsoft.Fast.Components.FluentUI": "3.4.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Fast.Components.FluentUI.Icons.dll": {
             "assemblyVersion": "3.4.0.23332",
             "fileVersion": "3.4.0.23332"
           }
@@ -622,6 +634,13 @@
       "sha512": "sha512-eaFDDygTJyWOraMU1urmUURavLW6KSNgCLduRygx0xlskka5p7kbSuNdy3WgAlXYF+XIOpoYE6R7wYxBtOX8aQ==",
       "path": "microsoft.fast.components.fluentui/3.4.0",
       "hashPath": "microsoft.fast.components.fluentui.3.4.0.nupkg.sha512"
+    },
+    "Microsoft.Fast.Components.FluentUI.Icons/3.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bbFX+wSe6ycaYBRAnLjcnACzntxzi0qEG+HXq72bEufAD57Y2WivdQnvNfKjgtPYWguYaQD2SUn58O355A6LEA==",
+      "path": "microsoft.fast.components.fluentui.icons/3.4.0",
+      "hashPath": "microsoft.fast.components.fluentui.icons.3.4.0.nupkg.sha512"
     },
     "Microsoft.JSInterop/6.0.25": {
       "type": "package",
