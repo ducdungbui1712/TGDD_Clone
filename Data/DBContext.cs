@@ -1,6 +1,6 @@
-namespace TGDD_Clone.Data;
+namespace TGDD_Clone_2.Data;
 using Microsoft.EntityFrameworkCore;
-using TGDD_Clone;
+using TGDD_Clone_2;
 
 
 public class DBContext : DbContext

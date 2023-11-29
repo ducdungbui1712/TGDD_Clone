@@ -1202,19 +1202,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Morning\\.nuget\\packages\\": {}
+    "C:\\Users\\DungBui\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Morning\\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\\Attachments\\LearnBlazor\\TGDD_Clone\\TGDD_Clone.csproj",
-      "projectName": "TGDD_Clone",
-      "projectPath": "C:\\Users\\Morning\\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\\Attachments\\LearnBlazor\\TGDD_Clone\\TGDD_Clone.csproj",
-      "packagesPath": "C:\\Users\\Morning\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Morning\\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\\Attachments\\LearnBlazor\\TGDD_Clone\\obj\\",
+      "projectUniqueName": "C:\\Users\\DungBui\\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\\Attachments\\LearnBlazor\\TGDD_Clone\\TGDD_Clone_2.csproj",
+      "projectName": "TGDD_Clone_2",
+      "projectPath": "C:\\Users\\DungBui\\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\\Attachments\\LearnBlazor\\TGDD_Clone\\TGDD_Clone_2.csproj",
+      "packagesPath": "C:\\Users\\DungBui\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DungBui\\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\\Attachments\\LearnBlazor\\TGDD_Clone\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Morning\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DungBui\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1272,7 +1272,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

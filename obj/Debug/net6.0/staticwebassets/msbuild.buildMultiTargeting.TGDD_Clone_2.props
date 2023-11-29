@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TGDD_Clone_2.props" />
+</Project>

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using TGDD_Clone.Data;
-using TGDD_Clone;
+using TGDD_Clone_2.Data;
+using TGDD_Clone_2;
 
 [Route("phones")]
 [ApiController]

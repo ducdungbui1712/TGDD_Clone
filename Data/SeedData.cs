@@ -1,4 +1,4 @@
-namespace TGDD_Clone.Data;
+namespace TGDD_Clone_2.Data;
 public static class SeedData
 {
     public static void Initialize(DBContext context)
