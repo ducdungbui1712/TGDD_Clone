@@ -465,6 +465,22 @@
           "buildMultiTargeting/Microsoft.Fast.Components.FluentUI.props": {}
         }
       },
+      "Microsoft.Fast.Components.FluentUI.Icons/3.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Fast.Components.FluentUI": "3.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Fast.Components.FluentUI.Icons.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Fast.Components.FluentUI.Icons.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.JSInterop/6.0.25": {
         "type": "package",
         "compile": {
@@ -1536,6 +1552,21 @@
         "staticwebassets/lib/monaco-editor/min/vs/loader.min.js"
       ]
     },
+    "Microsoft.Fast.Components.FluentUI.Icons/3.4.0": {
+      "sha512": "bbFX+wSe6ycaYBRAnLjcnACzntxzi0qEG+HXq72bEufAD57Y2WivdQnvNfKjgtPYWguYaQD2SUn58O355A6LEA==",
+      "type": "package",
+      "path": "microsoft.fast.components.fluentui.icons/3.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net6.0/Microsoft.Fast.Components.FluentUI.Icons.dll",
+        "lib/net6.0/Microsoft.Fast.Components.FluentUI.Icons.xml",
+        "microsoft.fast.components.fluentui.icons.3.4.0.nupkg.sha512",
+        "microsoft.fast.components.fluentui.icons.nuspec"
+      ]
+    },
     "Microsoft.JSInterop/6.0.25": {
       "sha512": "ZjSExPW/8RPcnk7hpOnNkevMrenQvm5QgjzUm0/IpSqLk5XY7p7qntB2ibL0ZI8xDNm1S1Ph5+AZI2geUxltRA==",
       "type": "package",
@@ -1889,6 +1920,7 @@
       "Microsoft.EntityFrameworkCore >= 6.0.8",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.8",
       "Microsoft.Fast.Components.FluentUI >= 3.4.0",
+      "Microsoft.Fast.Components.FluentUI.Icons >= 3.4.0",
       "System.Net.Http.Json >= 6.0.0"
     ]
   },
@@ -1940,6 +1972,10 @@
             "version": "[6.0.8, )"
           },
           "Microsoft.Fast.Components.FluentUI": {
+            "target": "Package",
+            "version": "[3.4.0, )"
+          },
+          "Microsoft.Fast.Components.FluentUI.Icons": {
             "target": "Package",
             "version": "[3.4.0, )"
           },
