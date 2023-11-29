@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DungBui\\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\\Attachments\\LearnBlazor\\TGDD_Clone\\TGDD_Clone_2.csproj": {}
+    "C:\\Blazor Learning\\TGDD_Clone\\TGDD_Clone_2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DungBui\\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\\Attachments\\LearnBlazor\\TGDD_Clone\\TGDD_Clone_2.csproj": {
+    "C:\\Blazor Learning\\TGDD_Clone\\TGDD_Clone_2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DungBui\\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\\Attachments\\LearnBlazor\\TGDD_Clone\\TGDD_Clone_2.csproj",
+        "projectUniqueName": "C:\\Blazor Learning\\TGDD_Clone\\TGDD_Clone_2.csproj",
         "projectName": "TGDD_Clone_2",
-        "projectPath": "C:\\Users\\DungBui\\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\\Attachments\\LearnBlazor\\TGDD_Clone\\TGDD_Clone_2.csproj",
-        "packagesPath": "C:\\Users\\DungBui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DungBui\\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\\Attachments\\LearnBlazor\\TGDD_Clone\\obj\\",
+        "projectPath": "C:\\Blazor Learning\\TGDD_Clone\\TGDD_Clone_2.csproj",
+        "packagesPath": "C:\\Users\\Dung Bui\\.nuget\\packages\\",
+        "outputPath": "C:\\Blazor Learning\\TGDD_Clone\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DungBui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dung Bui\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[6.0.8, )"
             },
+            "Microsoft.Fast.Components.FluentUI": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
             "System.Net.Http.Json": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -72,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -7,24 +7,92 @@ public static class SeedData
             new Phone
             {
                 Id = 1,
-                Model = "iPhone 13",
+                Model = "iPhone 14",
                 Brand = "Apple",
                 ProductLine = "iPhone",
                 Color = "Space Gray",
                 BasePrice = 999.99m,
                 Description = "The latest iPhone model",
-                ImageUrl = ""
+                ImageUrl = "https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-xanh-1.jpg",
+                Discount = 0.3m
             },
             new Phone
             {
                 Id = 2,
+                Model = "Samsung Galaxy S22",
+                Brand = "Samsung",
+                ProductLine = "Galaxy",
+                Color = "Phantom Black",
+                BasePrice = 899.99m,
+                Description = "High-end Android phone",
+                ImageUrl = "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg"
+            },
+            new Phone
+            {
+                Id = 3,
+                Model = "iPhone 14",
+                Brand = "Apple",
+                ProductLine = "iPhone",
+                Color = "Space Gray",
+                BasePrice = 999.99m,
+                Description = "The latest iPhone model",
+                ImageUrl = "https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-xanh-1.jpg"
+            },
+            new Phone
+            {
+                Id = 4,
+                Model = "Samsung Galaxy S22",
+                Brand = "Samsung",
+                ProductLine = "Galaxy",
+                Color = "Phantom Black",
+                BasePrice = 899.99m,
+                Description = "High-end Android phone",
+                ImageUrl = "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg"
+            },
+            new Phone
+            {
+                Id = 5,
+                Model = "iPhone 14",
+                Brand = "Apple",
+                ProductLine = "iPhone",
+                Color = "Space Gray",
+                BasePrice = 999.99m,
+                Description = "The latest iPhone model",
+                ImageUrl = "https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-xanh-1.jpg"
+            },
+            new Phone
+            {
+                Id = 6,
+                Model = "Samsung Galaxy S22",
+                Brand = "Samsung",
+                ProductLine = "Galaxy",
+                Color = "Phantom Black",
+                BasePrice = 899.99m,
+                Description = "High-end Android phone",
+                ImageUrl = "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg"
+            },
+            new Phone
+            {
+                Id = 7,
                 Model = "Samsung Galaxy S21",
                 Brand = "Samsung",
                 ProductLine = "Galaxy",
                 Color = "Phantom Black",
                 BasePrice = 899.99m,
                 Description = "High-end Android phone",
-                ImageUrl = ""
+                ImageUrl = "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg",
+                Discount = 0.1m
+            },
+            new Phone
+            {
+                Id = 8,
+                Model = "Samsung Galaxy S20",
+                Brand = "Samsung",
+                ProductLine = "Galaxy",
+                Color = "Phantom Black",
+                BasePrice = 899.99m,
+                Description = "High-end Android phone",
+                ImageUrl = "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg"
             }
         );
 

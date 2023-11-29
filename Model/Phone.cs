@@ -15,6 +15,12 @@ public class Phone{
     public string Description { get; set; }
 
     public string ImageUrl { get; set; }
+    private decimal _discount = 1;
+    public decimal Discount
+    {
+        get { return _discount; }
+        set { _discount = value; }
+    }
 
     public string GetFormattedBasePrice() => BasePrice.ToString("0.00");
 }
