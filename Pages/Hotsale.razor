@@ -6,7 +6,7 @@
 
     <FluentHorizontalScroll class="right-gradient" Speed="1000" Easing="ScrollEasing.EaseInOut" >
     @foreach (var phone in Phones) {
-            <FluentCard class="m-3 text-center">
+            <FluentCard class="m-3 text-center product-info">
                             <img class="card-img-top w-70 img-fluid" src="@phone.ImageUrl" alt="..." />
                             <p class="m-2">@phone.Model</p>
                             <strong class="m-2 price">Giá: @phone.GetFormattedBasePrice()</strong>

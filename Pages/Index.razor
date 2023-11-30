@@ -11,7 +11,7 @@
         @if(phone.Discount !=1){
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <FluentCard class="text-center">
+                <FluentCard class="text-center product-info">
                     @{ var resultPrice = @phone.BasePrice -(@phone.BasePrice * @phone.Discount);}
                     <div class="badge bg-dark text-white position-absolute w-2" style="top: 0.5rem; right: 0.5rem">Sale</div>
                     <img class="card-img-top w-70 img-fluid" src="@phone.ImageUrl" alt="..." />
@@ -29,13 +29,13 @@
         else{
            <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <FluentCard class="text-center">
+                <FluentCard class="text-center product-info">
                     <img class="card-img-top w-70 img-fluid" src="@phone.ImageUrl" alt="..." />
                     <p class="m-2">@phone.Model</p>
                     <strong class="m-2 price">
                         <span>@phone.BasePrice.ToString("C")</span>
                     </strong>
-                    <FluentButton IconStart="@(new Icons.Regular.Size24.Cart())" class="d-block">
+                    <FluentButton @onclick="NavigateToDetailPage" IconStart="@(new Icons.Regular.Size24.Cart())" class="d-block">
                         Mua Ngay
                     </FluentButton>
                 </FluentCard>
@@ -56,5 +56,10 @@
     {
     Phones = await HttpClient.GetFromJsonAsync<List<Phone>>(NavigationManager.BaseUri + "phones");
     }
+    
+	private void NavigateToDetailPage()
+	{
+		NavigationManager.NavigateTo("/Detail");
+	}
 
 }
