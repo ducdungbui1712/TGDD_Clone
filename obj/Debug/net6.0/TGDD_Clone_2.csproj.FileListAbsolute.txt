@@ -186,3 +186,16 @@ C:\Blazor Learning\TGDD_Clone\bin\Debug\net6.0\System.IO.Pipelines.dll
 C:\Blazor Learning\TGDD_Clone\bin\Debug\net6.0\System.Text.Json.dll
 C:\Blazor Learning\TGDD_Clone\obj\Debug\net6.0\jsmodules\jsmodules.build.manifest.json
 C:\Blazor Learning\TGDD_Clone\bin\Debug\net6.0\Microsoft.Fast.Components.FluentUI.Icons.dll
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\Attachments\LearnBlazor\TGDD_Clone\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\Attachments\LearnBlazor\TGDD_Clone\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\Attachments\LearnBlazor\TGDD_Clone\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\Attachments\LearnBlazor\TGDD_Clone\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\Attachments\LearnBlazor\TGDD_Clone\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\Attachments\LearnBlazor\TGDD_Clone\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\Attachments\LearnBlazor\TGDD_Clone\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\Attachments\LearnBlazor\TGDD_Clone\bin\Debug\net6.0\Microsoft.Fast.Components.FluentUI.dll
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\Attachments\LearnBlazor\TGDD_Clone\bin\Debug\net6.0\Microsoft.Fast.Components.FluentUI.Icons.dll
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\Attachments\LearnBlazor\TGDD_Clone\bin\Debug\net6.0\Microsoft.JSInterop.dll
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\Attachments\LearnBlazor\TGDD_Clone\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\Attachments\LearnBlazor\TGDD_Clone\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\Attachments\LearnBlazor\TGDD_Clone\obj\Debug\net6.0\jsmodules\jsmodules.build.manifest.json

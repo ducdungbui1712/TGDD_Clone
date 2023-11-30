@@ -9,53 +9,55 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TGDD_Clone_2
 build_property.RootNamespace = TGDD_Clone_2
-build_property.ProjectDir = C:\Blazor Learning\TGDD_Clone\
+build_property.ProjectDir = C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\Attachments\LearnBlazor\TGDD_Clone\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Blazor Learning\TGDD_Clone
+build_property.MSBuildProjectDirectory = C:\Users\DungBui\OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED\Attachments\LearnBlazor\TGDD_Clone
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Blazor Learning/TGDD_Clone/App.razor]
+[C:/Users/DungBui/OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED/Attachments/LearnBlazor/TGDD_Clone/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Blazor Learning/TGDD_Clone/Pages/Hotsale.razor]
+[C:/Users/DungBui/OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED/Attachments/LearnBlazor/TGDD_Clone/Pages/Hotsale.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG90c2FsZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Blazor Learning/TGDD_Clone/Pages/Index.razor]
+[C:/Users/DungBui/OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED/Attachments/LearnBlazor/TGDD_Clone/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Blazor Learning/TGDD_Clone/Shared/Footer.razor]
+[C:/Users/DungBui/OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED/Attachments/LearnBlazor/TGDD_Clone/Shared/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZvb3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Blazor Learning/TGDD_Clone/Shared/SurveyPrompt.razor]
+[C:/Users/DungBui/OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED/Attachments/LearnBlazor/TGDD_Clone/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Blazor Learning/TGDD_Clone/_Imports.razor]
+[C:/Users/DungBui/OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED/Attachments/LearnBlazor/TGDD_Clone/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Blazor Learning/TGDD_Clone/Shared/MainLayout.razor]
+[C:/Users/DungBui/OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED/Attachments/LearnBlazor/TGDD_Clone/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-332m3dz4ee
 
-[C:/Blazor Learning/TGDD_Clone/Shared/NavMenu.razor]
+[C:/Users/DungBui/OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED/Attachments/LearnBlazor/TGDD_Clone/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ulk490e6j3
 
-[C:/Blazor Learning/TGDD_Clone/Pages/Error.cshtml]
+[C:/Users/DungBui/OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED/Attachments/LearnBlazor/TGDD_Clone/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Blazor Learning/TGDD_Clone/Pages/_Host.cshtml]
+[C:/Users/DungBui/OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED/Attachments/LearnBlazor/TGDD_Clone/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Blazor Learning/TGDD_Clone/Pages/_Layout.cshtml]
+[C:/Users/DungBui/OneDrive - NEW OCEAN INFORMATION SYSTEM COMPANY LIMITED/Attachments/LearnBlazor/TGDD_Clone/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

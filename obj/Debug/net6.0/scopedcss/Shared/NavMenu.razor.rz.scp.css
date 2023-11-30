@@ -1,62 +1,23 @@
-.navbar-toggler[b-ulk490e6j3] {
-    background-color: rgba(255, 255, 255, 0.1);
+.nav-logo[b-ulk490e6j3] {
+    background-position: 0 0;
+    width: 103px;
+    height: 35px;
+    background-image: url(//cdn.tgdd.vn/mwgcart/topzone/images/icon-topzone.webp);
+    background-repeat: no-repeat;
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 514px 226px;
+    
 }
 
-.top-row[b-ulk490e6j3] {
-    height: 3.5rem;
-    background-color: rgba(0,0,0,0.4);
-}
-
-.navbar-brand[b-ulk490e6j3] {
-    font-size: 1.1rem;
-}
-
-.oi[b-ulk490e6j3] {
-    width: 2rem;
-    font-size: 1.1rem;
-    vertical-align: text-top;
-    top: -2px;
-}
-
-.nav-item[b-ulk490e6j3] {
-    font-size: 0.9rem;
-    padding-bottom: 0.5rem;
-}
-
-    .nav-item:first-of-type[b-ulk490e6j3] {
-        padding-top: 1rem;
-    }
-
-    .nav-item:last-of-type[b-ulk490e6j3] {
-        padding-bottom: 1rem;
-    }
-
-    .nav-item[b-ulk490e6j3]  a {
-        color: #d7d7d7;
-        border-radius: 4px;
-        height: 3rem;
-        display: flex;
-        align-items: center;
-        line-height: 3rem;
-    }
-
-.nav-item[b-ulk490e6j3]  a.active {
-    background-color: rgba(255,255,255,0.25);
-    color: white;
-}
-
-.nav-item[b-ulk490e6j3]  a:hover {
-    background-color: rgba(255,255,255,0.1);
-    color: white;
-}
-
-@media (min-width: 641px) {
-    .navbar-toggler[b-ulk490e6j3] {
-        display: none;
-    }
-
-    .collapse[b-ulk490e6j3] {
-        /* Never collapse the sidebar for wide screens */
-        display: block;
-    }
+.nav-autho[b-ulk490e6j3] {
+    background-image: url(//cdn.tgdd.vn/mwgcart/topzone/images/APR_logo.webp);
+    width: 32px;
+    height: 40px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
 }
