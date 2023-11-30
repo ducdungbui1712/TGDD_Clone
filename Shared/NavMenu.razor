@@ -1,7 +1,7 @@
 ﻿<FluentHeader Height="70" Style="background-color: black;">
     <FluentGrid Justify="JustifyContent.Center" >
         <FluentGridItem  md="10">
-            <FluentGrid Justify="JustifyContent.SpaceBetween">
+            <FluentGrid Justify="JustifyContent.SpaceBetween" xs="6" sm="3">
                 <FluentGridItem  md="3">
                     <div class="logo">
                         <FluentStack Orientation="Orientation.Horizontal" VerticalAlignment="VerticalAlignment.Center">
@@ -11,12 +11,25 @@
                         </FluentStack>
                     </div>
                 </FluentGridItem>
-                <FluentGridItem Style="color: white; align-items: center;" Justify="JustifyContent.Center" md="6">
-                    <a href="#">Phone</a>
-                    <a href="#">Phone</a>
-                    <a href="#">Phone</a>
-                    <a href="#">Phone</a>
+
+                <FluentGridItem Style=" align-items: center;" Justify="JustifyContent.Center" md="6">
+                    <ul class="navcontainer">
+                    <li>
+                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.PhonePagination())" class="navset">Điện Thoại</FluentNavLink>
+                    </li>
+                    <li>
+                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.PhoneDesktop())" class="navset">Laptop</FluentNavLink>
+                    </li>
+                     <li>
+                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.Tablet())" class="navset">Tablet</FluentNavLink>
+                    </li>
+                     <li>
+                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.Headphones())" class="navset">Phụ Kiện</FluentNavLink>
+                    </li>
+                    </ul>
+
                 </FluentGridItem>
+
                 <FluentGridItem md="3">
                     <FluentIcon Value="@(new Icons.Regular.Size24.Search())" Color="@Color.Fill"/>
                     <FluentSearch Placeholder="Placeholder"></FluentSearch>
