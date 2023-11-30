@@ -1,8 +1,8 @@
-﻿<FluentHeader Height="70" Style="background-color: black;">
+﻿@* <FluentHeader Height="70" Style="background-color: black;">
     <FluentGrid Justify="JustifyContent.Center" >
         <FluentGridItem  md="10">
             <FluentGrid Justify="JustifyContent.SpaceBetween" xs="6" sm="3">
-                <FluentGridItem  md="3">
+                <FluentGridItem Justify="JustifyContent.FlexStart" md="3">
                     <div class="logo">
                         <FluentStack Orientation="Orientation.Horizontal" VerticalAlignment="VerticalAlignment.Center">
                             <span><i class="nav-logo"></i></span>
@@ -20,21 +20,130 @@
                     <li>
                         <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.PhoneDesktop())" class="navset">Laptop</FluentNavLink>
                     </li>
-                     <li>
+                    <li>
                         <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.Tablet())" class="navset">Tablet</FluentNavLink>
                     </li>
-                     <li>
+                    <li>
                         <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.Headphones())" class="navset">Phụ Kiện</FluentNavLink>
                     </li>
                     </ul>
 
                 </FluentGridItem>
 
-                <FluentGridItem md="3">
-                    <FluentIcon Value="@(new Icons.Regular.Size24.Search())" Color="@Color.Fill"/>
-                    <FluentSearch Placeholder="Placeholder"></FluentSearch>
+                <FluentGridItem Justify="JustifyContent.FlexEnd" md="3">
+                    <FluentStack Style="align-items: center;" Orientation="Orientation.Horizontal">
+                        <div class="nav-search-icon" @onclick="ToggleSearch">
+                            <FluentIcon Value="@(new Icons.Regular.Size24.Search())" Color="@Color.Fill"/>
+                        </div>
+                        <FluentSearch Style="@searchStyle" Placeholder="Placeholder"></FluentSearch>
+                    </FluentStack>
                 </FluentGridItem>
             </FluentGrid>
         </FluentGridItem>
     </FluentGrid>
 </FluentHeader>
+
+@code {
+    private bool showSearch = false;
+    private string searchStyle = "align-items: center; visibility: hidden;";
+
+    private void ToggleSearch()
+    {
+        showSearch = !showSearch;
+        searchStyle = $"align-items: center; visibility: {(showSearch ? "visible" : "hidden")};";
+    }
+} *@
+
+<FluentHeader Height="70" Style="background-color: black;">
+    <FluentGrid Justify="JustifyContent.Center" >
+        <FluentGridItem  md="10">
+            <FluentGrid Justify="JustifyContent.SpaceBetween" xs="6" sm="3">
+                <FluentGridItem Justify="JustifyContent.FlexStart" md="3">
+                    <div class="logo">
+                        <FluentStack Orientation="Orientation.Horizontal" VerticalAlignment="VerticalAlignment.Center">
+                            <span><i class="nav-logo"></i></span>
+
+                            <FluentDivider Style="height: 2em;" Role="DividerRole.Separator" Orientation="Orientation.Vertical"></FluentDivider>
+                            <span><i class="nav-autho"></i></span>
+                        </FluentStack>
+                    </div>
+                </FluentGridItem>
+
+                <div class="top-row ps-3 navbar navbar-dark">
+                    <div class="container-fluid">
+                        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
+                    <nav class="flex-column">
+                        <div class="nav-item px-3">
+                            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                                <span class="oi oi-home" aria-hidden="true"></span> Home
+                            </NavLink>
+                        </div>
+                        <div class="nav-item px-3">
+                            <NavLink class="nav-link" href="counter">
+                                <span class="oi oi-plus" aria-hidden="true"></span> Counter
+                            </NavLink>
+                        </div>
+                        <div class="nav-item px-3">
+                            <NavLink class="nav-link" href="fetchdata">
+                                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+                            </NavLink>
+                        </div>
+                    </nav>
+                </div>
+
+                <FluentGridItem Style=" align-items: center;" Justify="JustifyContent.Center" md="6">
+                    <ul class="navcontainer">
+                    <li>
+                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.PhonePagination())" class="navset">Điện Thoại</FluentNavLink>
+                    </li>
+                    <li>
+                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.PhoneDesktop())" class="navset">Laptop</FluentNavLink>
+                    </li>
+                    <li>
+                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.Tablet())" class="navset">Tablet</FluentNavLink>
+                    </li>
+                    <li>
+                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.Headphones())" class="navset">Phụ Kiện</FluentNavLink>
+                    </li>
+                    </ul>
+
+                </FluentGridItem>
+
+                <FluentGridItem Justify="JustifyContent.FlexEnd" md="3">
+                    <FluentStack Style="align-items: center;" Orientation="Orientation.Horizontal">
+                        <div class="nav-search-icon" @onclick="ToggleSearch">
+                            <FluentIcon Value="@(new Icons.Regular.Size24.Search())" Color="@Color.Fill"/>
+                        </div>
+                        <FluentSearch Style="@searchStyle" Placeholder="Placeholder"></FluentSearch>
+                    </FluentStack>
+                </FluentGridItem>
+            </FluentGrid>
+        </FluentGridItem>
+    </FluentGrid>
+</FluentHeader>
+
+@code {
+    private bool showSearch = false;
+    private string searchStyle = "align-items: center; visibility: hidden;";
+
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleSearch()
+    {
+        showSearch = !showSearch;
+        searchStyle = $"align-items: center; visibility: {(showSearch ? "visible" : "hidden")};";
+    }
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}
