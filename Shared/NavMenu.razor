@@ -1,36 +1,27 @@
-﻿<div class="container">
-    <div class="top-row ps-3 navbar navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="">TGDD_Clone</a>
-            <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-    </div>
-
-    <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
-        <nav class="flex-column">
-            <div class="nav-item px-3">
-                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                    <span class="oi oi-home" aria-hidden="true"></span> Home
-                </NavLink>
-            </div>
-            <div class="nav-item px-3">
-                <NavLink class="nav-link" href="fetchdata">
-                    <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
-                </NavLink>
-            </div>
-        </nav>
-    </div>
-</div>
-
-@code {
-    private bool collapseNavMenu = true;
-
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
-}
+﻿<FluentHeader Height="70" Style="background-color: black;">
+    <FluentGrid Justify="JustifyContent.Center" >
+        <FluentGridItem  md="10">
+            <FluentGrid Justify="JustifyContent.SpaceBetween">
+                <FluentGridItem  md="3">
+                    <div class="logo">
+                        <FluentStack Orientation="Orientation.Horizontal" VerticalAlignment="VerticalAlignment.Center">
+                            <span><i class="nav-logo"></i></span>
+                            <FluentDivider Style="height: 2em;" Role="DividerRole.Separator" Orientation="Orientation.Vertical"></FluentDivider>
+                            <span><i class="nav-autho"></i></span>
+                        </FluentStack>
+                    </div>
+                </FluentGridItem>
+                <FluentGridItem Style="color: white; align-items: center;" Justify="JustifyContent.Center" md="6">
+                    <a href="#">Phone</a>
+                    <a href="#">Phone</a>
+                    <a href="#">Phone</a>
+                    <a href="#">Phone</a>
+                </FluentGridItem>
+                <FluentGridItem md="3">
+                    <FluentIcon Value="@(new Icons.Regular.Size24.Search())" Color="@Color.Fill"/>
+                    <FluentSearch Placeholder="Placeholder"></FluentSearch>
+                </FluentGridItem>
+            </FluentGrid>
+        </FluentGridItem>
+    </FluentGrid>
+</FluentHeader>
