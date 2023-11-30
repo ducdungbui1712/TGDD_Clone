@@ -4,6 +4,8 @@
 
 <PageTitle>HomePage</PageTitle>
 
+<HomeBanner/>
+
 <FluentGrid xs="6" sm="3" Justify="JustifyContent.Center">
      @foreach (var phone in Phones) {
         @if(phone.Discount !=1){
@@ -31,7 +33,7 @@
                     <img class="card-img-top w-70 img-fluid" src="@phone.ImageUrl" alt="..." />
                     <p class="m-2">@phone.Model</p>
                     <strong class="m-2 price">
-                        <span class="text-muted text-decoration-line-through">@phone.BasePrice.ToString("C")</span>
+                        <span>@phone.BasePrice.ToString("C")</span>
                     </strong>
                     <FluentButton IconStart="@(new Icons.Regular.Size24.Cart())" class="d-block">
                         Mua Ngay
