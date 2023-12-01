@@ -17,4 +17,19 @@ public class PhoneController : Controller{
         var phones = await _db.Phones.ToListAsync();
         return Ok(phones);
     }
+    [HttpGet("{Id}")]
+    public async Task<ActionResult<Phone>> GetPhoneDetail(int Id)
+    {
+        
+        var phone = await _db.Phones
+            .Where(o => o.Id.Equals(Id))
+            .SingleOrDefaultAsync();
+
+        if (phone == null)
+        {
+            return NotFound();
+        }
+
+        return phone;
+    }
 }

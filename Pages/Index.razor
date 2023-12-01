@@ -19,7 +19,7 @@
                     <strong class="m-2 price">
                         <span class="text-muted text-decoration-line-through">@phone.BasePrice.ToString("C")</span> @resultPrice.ToString("C")
                     </strong>
-                    <FluentButton IconStart="@(new Icons.Regular.Size24.Cart())" class="d-block">
+                    <FluentButton @onclick="()=> NavigateToDetailPage(phone.Id)" IconStart="@(new Icons.Regular.Size24.Cart())" class="d-block">
                         Mua Ngay
                     </FluentButton>
                 </FluentCard>
@@ -35,7 +35,7 @@
                     <strong class="m-2 price">
                         <span>@phone.BasePrice.ToString("C")</span>
                     </strong>
-                    <FluentButton @onclick="NavigateToDetailPage" IconStart="@(new Icons.Regular.Size24.Cart())" class="d-block">
+                    <FluentButton @onclick="()=> NavigateToDetailPage(phone.Id)" IconStart="@(new Icons.Regular.Size24.Cart())" class="d-block">
                         Mua Ngay
                     </FluentButton>
                 </FluentCard>
@@ -56,10 +56,9 @@
     {
     Phones = await HttpClient.GetFromJsonAsync<List<Phone>>(NavigationManager.BaseUri + "phones");
     }
-    
-	private void NavigateToDetailPage()
+	private void NavigateToDetailPage(int id)
 	{
-		NavigationManager.NavigateTo("/Detail");
+		NavigationManager.NavigateTo($"/Detail/{id}");
 	}
 
 }

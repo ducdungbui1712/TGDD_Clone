@@ -14,7 +14,8 @@ public static class SeedData
                 BasePrice = 999.99m,
                 Description = "The latest iPhone model",
                 ImageUrl = "https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-xanh-1.jpg",
-                Discount = 0.3m
+                Discount = 0.3m,
+                ProductImage = "https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-den-glr-1.jpg,https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-den-glr-2.jpg,https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-den-glr-3.jpg,https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-den-glr-4.jpg,https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-den-glr-5.jpg,https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-den-glr-11.jpg,https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-den-glr-12.jpg"
             },
             new Phone
             {
@@ -25,7 +26,8 @@ public static class SeedData
                 Color = "Phantom Black",
                 BasePrice = 899.99m,
                 Description = "High-end Android phone",
-                ImageUrl = "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg"
+                ImageUrl = "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg",
+                ProductImage= "https://cdn.tgdd.vn/Products/Images/42/235838/Slider/s22-ultra-1020x570.jpg,https://cdn.tgdd.vn/Products/Images/42/235838/Slider/samsung-galaxy-s22-ultra-1020x570.jpg,https://cdn.tgdd.vn/Products/Images/42/235838/Slider/2.ButSpen-1020x570.jpg,https://cdn.tgdd.vn/Products/Images/42/235838/Slider/8.Matthanbongdem-1020x570.jpg"
             },
             new Phone
             {
@@ -36,7 +38,9 @@ public static class SeedData
                 Color = "Space Gray",
                 BasePrice = 999.99m,
                 Description = "The latest iPhone model",
-                ImageUrl = "https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-xanh-1.jpg"
+                ImageUrl = "https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-xanh-1.jpg",
+                ProductImage = "https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-den-glr-1.jpg,https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-den-glr-2.jpg,https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-den-glr-3.jpg,https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-den-glr-4.jpg,https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-den-glr-5.jpg,https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-den-glr-11.jpg,https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-den-glr-12.jpg"
+
             },
             new Phone
             {
@@ -47,7 +51,9 @@ public static class SeedData
                 Color = "Phantom Black",
                 BasePrice = 899.99m,
                 Description = "High-end Android phone",
-                ImageUrl = "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg"
+                ImageUrl = "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg",
+
+                ProductImage= "https://cdn.tgdd.vn/Products/Images/42/235838/Slider/s22-ultra-1020x570.jpg,https://cdn.tgdd.vn/Products/Images/42/235838/Slider/samsung-galaxy-s22-ultra-1020x570.jpg,https://cdn.tgdd.vn/Products/Images/42/235838/Slider/2.ButSpen-1020x570.jpg,https://cdn.tgdd.vn/Products/Images/42/235838/Slider/8.Matthanbongdem-1020x570.jpg"
             },
             new Phone
             {
@@ -58,7 +64,9 @@ public static class SeedData
                 Color = "Space Gray",
                 BasePrice = 999.99m,
                 Description = "The latest iPhone model",
-                ImageUrl = "https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-xanh-1.jpg"
+                ImageUrl = "https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-xanh-1.jpg",
+                ProductImage = "https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-den-glr-1.jpg,https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-den-glr-2.jpg,https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-den-glr-3.jpg,https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-den-glr-4.jpg,https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-den-glr-5.jpg,https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-den-glr-11.jpg,https://cdn.tgdd.vn/Products/Images/42/289663/iphone-14-den-glr-12.jpg"
+
             },
             new Phone
             {
@@ -69,7 +77,8 @@ public static class SeedData
                 Color = "Phantom Black",
                 BasePrice = 899.99m,
                 Description = "High-end Android phone",
-                ImageUrl = "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg"
+                ImageUrl = "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg",
+                ProductImage= "https://cdn.tgdd.vn/Products/Images/42/235838/Slider/s22-ultra-1020x570.jpg,https://cdn.tgdd.vn/Products/Images/42/235838/Slider/samsung-galaxy-s22-ultra-1020x570.jpg,https://cdn.tgdd.vn/Products/Images/42/235838/Slider/2.ButSpen-1020x570.jpg,https://cdn.tgdd.vn/Products/Images/42/235838/Slider/8.Matthanbongdem-1020x570.jpg"
             },
             new Phone
             {
@@ -81,7 +90,8 @@ public static class SeedData
                 BasePrice = 899.99m,
                 Description = "High-end Android phone",
                 ImageUrl = "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg",
-                Discount = 0.1m
+                Discount = 0.1m,
+                ProductImage= "https://cdn.tgdd.vn/Products/Images/42/235838/Slider/s22-ultra-1020x570.jpg,https://cdn.tgdd.vn/Products/Images/42/235838/Slider/samsung-galaxy-s22-ultra-1020x570.jpg,https://cdn.tgdd.vn/Products/Images/42/235838/Slider/2.ButSpen-1020x570.jpg,https://cdn.tgdd.vn/Products/Images/42/235838/Slider/8.Matthanbongdem-1020x570.jpg"
             },
             new Phone
             {
@@ -92,7 +102,8 @@ public static class SeedData
                 Color = "Phantom Black",
                 BasePrice = 899.99m,
                 Description = "High-end Android phone",
-                ImageUrl = "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg"
+                ImageUrl = "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg",
+                ProductImage= "https://cdn.tgdd.vn/Products/Images/42/235838/Slider/s22-ultra-1020x570.jpg,https://cdn.tgdd.vn/Products/Images/42/235838/Slider/samsung-galaxy-s22-ultra-1020x570.jpg,https://cdn.tgdd.vn/Products/Images/42/235838/Slider/2.ButSpen-1020x570.jpg,https://cdn.tgdd.vn/Products/Images/42/235838/Slider/8.Matthanbongdem-1020x570.jpg"
             }
         );
 
