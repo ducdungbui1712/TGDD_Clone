@@ -124,8 +124,4 @@ cursor: pointer;
 
 }
 
-@media (max-width: 641px) {
-    .nav-menu {
-        display: none;
-    }
-}
+

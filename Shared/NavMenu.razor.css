@@ -84,20 +84,25 @@
     vertical-align: middle;
 }
 
-@media (min-width: 641px) {
+/* @media (min-width: 641px) {
     .un-collapse {
-        /* Never collapse the sidebar for wide screens */
         display: none;
     }
-}
+} */
 
-@media (min-width: 641px) {
+@media (min-width: 793px) {
     .navbar-toggler {
         display: none;
     }
 
     .collapse {
         /* Never collapse the sidebar for wide screens */
+        display: none;
+    }
+}
+
+@media (max-width: 793px) {
+    .navcontainer {
         display: none;
     }
 }
