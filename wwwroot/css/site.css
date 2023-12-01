@@ -125,3 +125,6 @@ cursor: pointer;
 }
 
 
+.buttonBuy button{
+    padding: 6px;
+}
