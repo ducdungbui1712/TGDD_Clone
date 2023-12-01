@@ -84,27 +84,37 @@ a, .btn-link {
     padding: 0;
     overflow: hidden;
     background-color: black;
-  }
-  
-  li {
-    float: left;
-    cursor: pointer;
-  }
-  
-  .navset {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+}
 
-  .navset:hover {
-    background-color: #333;
-  }
+.navcontainer  li {
+float: left;
+cursor: pointer;
+height: 100%;
+}
 
-  .product-info {
-    cursor: pointer;
+.navset {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.navset:hover {
+background-color: #333;
+}
+
+.navbar-toggler-icon{
+background-color: #2f3033;
+}  
+
+.navbar-toggler:hover .navbar-toggler-icon{
+    background-color: #5e5e60;
+
+}
+
+.product-info {
+cursor: pointer;
 
 }
 .product-info:hover{
@@ -112,4 +122,10 @@ a, .btn-link {
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
 
+}
+
+@media (max-width: 641px) {
+    .nav-menu {
+        display: none;
+    }
 }

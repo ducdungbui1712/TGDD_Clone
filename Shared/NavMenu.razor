@@ -54,7 +54,7 @@
     }
 } *@
 
-<FluentHeader Height="70" Style="background-color: black;">
+<FluentHeader Style="background-color: black; height: auto; margin-bottom: 0; font-weight: normal;">
     <FluentGrid Justify="JustifyContent.Center" >
         <FluentGridItem  md="10">
             <FluentGrid Justify="JustifyContent.SpaceBetween" xs="6" sm="3">
@@ -62,42 +62,12 @@
                     <div class="logo">
                         <FluentStack Orientation="Orientation.Horizontal" VerticalAlignment="VerticalAlignment.Center">
                             <span><i class="nav-logo"></i></span>
-
                             <FluentDivider Style="height: 2em;" Role="DividerRole.Separator" Orientation="Orientation.Vertical"></FluentDivider>
                             <span><i class="nav-autho"></i></span>
                         </FluentStack>
                     </div>
                 </FluentGridItem>
-
-                <div class="top-row ps-3 navbar navbar-dark">
-                    <div class="container-fluid">
-                        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
-                    <nav class="flex-column">
-                        <div class="nav-item px-3">
-                            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                                <span class="oi oi-home" aria-hidden="true"></span> Home
-                            </NavLink>
-                        </div>
-                        <div class="nav-item px-3">
-                            <NavLink class="nav-link" href="counter">
-                                <span class="oi oi-plus" aria-hidden="true"></span> Counter
-                            </NavLink>
-                        </div>
-                        <div class="nav-item px-3">
-                            <NavLink class="nav-link" href="fetchdata">
-                                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
-                            </NavLink>
-                        </div>
-                    </nav>
-                </div>
-
-                <FluentGridItem Style=" align-items: center;" Justify="JustifyContent.Center" md="6">
+                <FluentGridItem class="nav-menu" Style="@showNavMenu" Justify="JustifyContent.Center" md="6">
                     <ul class="navcontainer">
                     <li>
                         <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.PhonePagination())" class="navset">Điện Thoại</FluentNavLink>
@@ -121,6 +91,9 @@
                             <FluentIcon Value="@(new Icons.Regular.Size24.Search())" Color="@Color.Fill"/>
                         </div>
                         <FluentSearch Style="@searchStyle" Placeholder="Placeholder"></FluentSearch>
+                        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+                            <FluentIcon class="navbar-toggler-icon" Value="@(new Icons.Regular.Size24.AlignSpaceEvenlyVertical().WithColor("#ffffff"))" />
+                        </button>
                     </FluentStack>
                 </FluentGridItem>
             </FluentGrid>
@@ -128,22 +101,53 @@
     </FluentGrid>
 </FluentHeader>
 
-@code {
-    private bool showSearch = false;
-    private string searchStyle = "align-items: center; visibility: hidden;";
 
+<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu" style="background-color: black; color: white;">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.PhonePagination())">Điện Thoại</FluentNavLink>
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="#">
+                <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.PhoneDesktop())">Laptop</FluentNavLink>
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="#">
+                <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.Tablet())">Tablet</FluentNavLink>
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="#">
+                <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.Headphones())">Phụ Kiện</FluentNavLink>
+            </NavLink>
+        </div>
+    </nav>
+</div>
+
+@code {
     private bool collapseNavMenu = true;
 
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : "un-collapse";
+    private bool showSearch = false;
+    private string searchStyle = "align-items: center; display: none;";
 
-    private void ToggleSearch()
-    {
-        showSearch = !showSearch;
-        searchStyle = $"align-items: center; visibility: {(showSearch ? "visible" : "hidden")};";
-    }
+    private string showNavMenu  = "align-items: center;";
 
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
+    }
+
+    private void ToggleSearch()
+    {
+        showSearch = !showSearch;
+        if(showSearch){
+            searchStyle = "align-items: center; display: block;";
+        }else{
+            searchStyle = "display: none;";
+        }
     }
 }
