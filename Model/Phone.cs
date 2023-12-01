@@ -1,3 +1,5 @@
+
+
 namespace TGDD_Clone_2;
 public class Phone{
     public int Id { get; set; }
@@ -21,6 +23,14 @@ public class Phone{
         get { return _discount; }
         set { _discount = value; }
     }
+    public string Url
+    {
+    get
+    {
+      return "Detail/" + this.Id;
+    }
+    }
+    public string ProductImage{get; set;}
 
     public string GetFormattedBasePrice() => BasePrice.ToString("0.00");
 }

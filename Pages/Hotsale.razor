@@ -10,7 +10,7 @@
                             <img class="card-img-top w-70 img-fluid" src="@phone.ImageUrl" alt="..." />
                             <p class="m-2">@phone.Model</p>
                             <strong class="m-2 price">Giá: @phone.GetFormattedBasePrice()</strong>
-                            <FluentButton IconStart="@(new Icons.Regular.Size24.Cart())">
+                            <FluentButton @onclick="()=> NavigateToDetailPage(phone.Id)" IconStart="@(new Icons.Regular.Size24.Cart())">
                                                 Mua Ngay
                             </FluentButton>
             </FluentCard>
@@ -28,4 +28,8 @@
     {
     Phones = await HttpClient.GetFromJsonAsync<List<Phone>>(NavigationManager.BaseUri + "phones");
     }
+    private void NavigateToDetailPage(int id)
+	{
+		NavigationManager.NavigateTo($"/Detail/{id}");
+	}
 }
