@@ -2,51 +2,66 @@
 @inject NavigationManager NavigationManager
 @inject HttpClient HttpClient
 
+@if (arrImage != null)
+{
 
-<h1>Detail product @Id</h1>
-
-<p>PhoneName:@phone.Model </p>
-<FluentGrid Spacing="3" Justify="JustifyContent.SpaceBetween">
-    <FluentGridItem xs="12" sm="6">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://cdn.tgdd.vn/Products/Images/42/235838/Slider/s22-ultra-1020x570.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+  <FluentGrid Spacing="3" Justify="JustifyContent.SpaceBetween">
+    <FluentGridItem xs="12" sm="4">
+<div>
+    <FluentHorizontalScroll class="full-width" Speed="1200" Easing="ScrollEasing.EaseInOut">
+          @foreach(var item in arrImage){
+              <img class="img-fluid object-fit-cover" src="@item" alt="">
+          }
+    </FluentHorizontalScroll>
 </div>
     </FluentGridItem>
-    <FluentGridItem xs="12" sm="6">
-        <div class="card">
-            xs="12" sm="6"
-        </div>
+    <FluentGridItem xs="12" sm="8">
+      	<h3 class="product-title">Điện Thoại @phone.Model</h3>
+						<div class="rating">
+							<div class="stars">
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+							</div>
+							<span class="review-no">41 reviews</span>
+						</div>
+						<p class="product-description">@phone.Description</p>
+						<h4 class="price">Giá: <span>@phone.BasePrice.ToString("C")</span></h4>
+						<p class="vote"><strong>91%</strong> of buyers enjoyed this product! <strong>(87 votes)</strong></p>
+						<h5 class="sizes">sizes:
+							<span class="size" data-toggle="tooltip" title="small">s</span>
+							<span class="size" data-toggle="tooltip" title="medium">m</span>
+							<span class="size" data-toggle="tooltip" title="large">l</span>
+							<span class="size" data-toggle="tooltip" title="xtra large">xl</span>
+						</h5>
+						<h5 class="colors">colors:
+							<span class="color orange not-available" data-toggle="tooltip" title="Not In store"></span>
+							<span class="color green"></span>
+							<span class="color blue"></span>
+						</h5>
+						<div class="action">
+              <FluentButton IconStart="@(new Icons.Regular.Size24.Cart())"  class="d-block button">
+                        Mua Ngay
+              </FluentButton>
+						</div>
     </FluentGridItem>
-</FluentGrid>
+  </FluentGrid>
+}
+
 
 @code {
-	Phone phone = new Phone();
-	[Parameter]
-	public int Id { get; set; }
-
-    protected override async Task OnInitializedAsync()
-    {
+  Phone phone = new Phone();
+  string test = "test";
+  [Parameter]
+  public int Id { get; set; }
+  string[] arrImage;
+  protected override async Task OnInitializedAsync()
+  {
     phone = await HttpClient.GetFromJsonAsync<Phone>($"{NavigationManager.BaseUri}phones/{Id}");
-    }
+    arrImage = phone.ProductImage.Split(',');
+  }
+
+
 }
