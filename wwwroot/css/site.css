@@ -76,10 +76,6 @@ a,
   --scroll-fade-previous: var(--fill-color);
 }
 
-div.header-gutters {
-  margin: 0;
-}
-
 .price {
   color: #d0021c;
   font-size: 18px;
