@@ -1,49 +1,55 @@
-﻿
-<FluentHeader Style="background-color: black; height: auto; margin-bottom: 0; font-weight: normal;">
-    <FluentGrid Justify="JustifyContent.Center" >
-        <FluentGridItem  md="12">
-            <FluentGrid Justify="JustifyContent.SpaceBetween">
-                <FluentGridItem Justify="JustifyContent.FlexStart" md="3">
-                    <div class="logo">
-                        <FluentStack Orientation="Orientation.Horizontal" VerticalAlignment="VerticalAlignment.Center">
-                            <span><i class="nav-logo"></i></span>
-                            <FluentDivider Style="height: 2em;" Role="DividerRole.Separator" Orientation="Orientation.Vertical"></FluentDivider>
-                            <span><i class="nav-autho"></i></span>
-                        </FluentStack>
+﻿<FluentHeader Style="background-color: black; height: 60px; margin-bottom: 0; font-weight: normal;">
+    <div class="grid-component" style="width: 100%;">
+        <FluentGrid Style="max-width: 1200px; margin: auto;" Justify="JustifyContent.SpaceBetween">
+            <FluentGridItem Justify="JustifyContent.FlexStart">
+                <FluentStack style="justify-content: center;" VerticalAlignment="VerticalAlignment.Center"
+                    Orientation="Orientation.Horizontal">
+                    <span><i class="nav-logo"></i></span>
+                    <div class="divider">
+                        <FluentDivider Style="height: 2em; background-color: red;" Role="DividerRole.Separator"
+                            Orientation="Orientation.Vertical"></FluentDivider>
                     </div>
-                </FluentGridItem>
-                <FluentGridItem class="nav-menu" Style="@showNavMenu" Justify="JustifyContent.Center" md="6">
-                    <ul class="navcontainer">
+                    <span><i class="nav-autho"></i></span>
+                </FluentStack>
+            </FluentGridItem>
+            <FluentGridItem class="nav-menu" Style="@showNavMenu" Justify="JustifyContent.Center">
+                <ul class="nav-container">
                     <li>
-                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.PhonePagination())" class="navset">Điện Thoại</FluentNavLink>
+                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.PhonePagination())"
+                            class="navset">Điện Thoại</FluentNavLink>
                     </li>
                     <li>
-                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.PhoneDesktop())" class="navset">Laptop</FluentNavLink>
+                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.PhoneDesktop())"
+                            class="navset">Laptop</FluentNavLink>
                     </li>
                     <li>
-                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.Tablet())" class="navset">Tablet</FluentNavLink>
+                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.Tablet())"
+                            class="navset">
+                            Tablet</FluentNavLink>
                     </li>
                     <li>
-                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.Headphones())" class="navset">Phụ Kiện</FluentNavLink>
+                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.Headphones())"
+                            class="navset">Phụ Kiện</FluentNavLink>
                     </li>
-                    </ul>
+                </ul>
 
-                </FluentGridItem>
+            </FluentGridItem>
 
-                <FluentGridItem Justify="JustifyContent.FlexEnd" md="3">
-                    <FluentStack Style="align-items: center;" Orientation="Orientation.Horizontal">
-                        <div class="nav-search-icon" @onclick="ToggleSearch">
-                            <FluentIcon Value="@(new Icons.Regular.Size24.Search())" Color="@Color.Fill"/>
-                        </div>
-                        <FluentSearch Style="@searchStyle" Placeholder="Placeholder"></FluentSearch>
-                        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-                            <FluentIcon class="navbar-toggler-icon" Value="@(new Icons.Regular.Size24.AlignSpaceEvenlyVertical().WithColor("#ffffff"))" />
-                        </button>
-                    </FluentStack>
-                </FluentGridItem>
-            </FluentGrid>
-        </FluentGridItem>
-    </FluentGrid>
+            <FluentGridItem Justify="JustifyContent.FlexEnd">
+                <FluentStack style="justify-content: center;" VerticalAlignment="VerticalAlignment.Center"
+                    Orientation="Orientation.Horizontal">
+                    <div class="nav-search-icon" @onclick="ToggleSearch">
+                        <FluentIcon Value="@(new Icons.Regular.Size24.Search())" Color="@Color.Fill" />
+                    </div>
+                    <FluentSearch Style="@searchStyle" Placeholder="Placeholder"></FluentSearch>
+                    <div title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+                        <FluentIcon Value="@(new Icons.Regular.Size24.AlignSpaceEvenlyVertical())"
+                            Color="@Color.Fill" />
+                    </div>
+                </FluentStack>
+            </FluentGridItem>
+        </FluentGrid>
+    </div>
 </FluentHeader>
 
 
@@ -51,36 +57,40 @@
     <nav class="flex-column">
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.PhonePagination())">Điện Thoại</FluentNavLink>
+                <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.PhonePagination())">Điện Thoại
+                </FluentNavLink>
             </NavLink>
         </div>
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="#">
-                <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.PhoneDesktop())">Laptop</FluentNavLink>
+                <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.PhoneDesktop())">Laptop
+                </FluentNavLink>
             </NavLink>
         </div>
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="#">
-                <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.Tablet())">Tablet</FluentNavLink>
+                <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.Tablet())">Tablet
+                </FluentNavLink>
             </NavLink>
         </div>
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="#">
-                <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.Headphones())">Phụ Kiện</FluentNavLink>
+                <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.Headphones())">Phụ Kiện
+                </FluentNavLink>
             </NavLink>
         </div>
     </nav>
 </div>
 
+<div class="bg-sg" Style="@bgSg"></div>
+
 @code {
     private bool collapseNavMenu = true;
-
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : "un-collapse";
     private bool showSearch = false;
     private string searchStyle = "align-items: center; display: none;";
-
-    private string showNavMenu  = "align-items: center;";
-
+    private string bgSg = "display: none;";
+    private string showNavMenu = "align-items: center;";
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
@@ -89,9 +99,14 @@
     private void ToggleSearch()
     {
         showSearch = !showSearch;
-        if(showSearch){
+        if (showSearch)
+        {
             searchStyle = "align-items: center; display: block;";
-        }else{
+            bgSg = "display: block;";
+
+        }
+        else
+        {
             searchStyle = "display: none;";
         }
     }
