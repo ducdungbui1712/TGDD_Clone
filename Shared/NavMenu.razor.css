@@ -164,5 +164,7 @@
 @media (max-width: 830px) {
   .nav-container {
     display: none;
+
+    
   }
 }
