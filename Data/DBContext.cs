@@ -11,4 +11,6 @@ public class DBContext : DbContext
 
     public DbSet<Phone> Phones { get; set; }
     public DbSet<Laptop> Laptops { get; set; }
+    public DbSet<Order> Orders { get; set; }
+    public DbSet<Address> Addresses { get; set; }
 }
