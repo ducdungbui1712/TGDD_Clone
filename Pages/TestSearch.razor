@@ -1,0 +1,43 @@
+@page "/TestSearch"
+@using TGDD_Clone_2.Data
+@using Microsoft.EntityFrameworkCore;
+@inject DBContext dbContext
+
+<input @oninput="@OnInput" placeholder="Tìm kiếm sản phẩm..." />
+
+@if (!FilteredProducts.Any())
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    foreach (var product in FilteredProducts)
+    {
+        <div>@product.Model</div>
+    }
+}
+
+@code {
+    private string? SearchText;
+    private List<Phone> FilteredProducts { get; set; } = new List<Phone>();
+    private async Task OnInput(ChangeEventArgs e)
+    {
+        SearchText = e.Value.ToString();
+        if (!string.IsNullOrEmpty(SearchText))
+        {
+
+            var keywords = SearchText.Split(' ');
+            IQueryable<Phone> query = dbContext.Phones;
+            foreach (var keyword in keywords)
+            {
+                var temp = keyword; // To avoid issues with modified closure
+                query = query.Where(product => EF.Functions.Like(product.Model, $"%{temp}%"));
+            }
+            FilteredProducts = await query.ToListAsync();
+        }
+        else
+        {
+            FilteredProducts = new List<Phone>();
+        }
+    }
+}
