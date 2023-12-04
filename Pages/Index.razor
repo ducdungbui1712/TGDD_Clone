@@ -1,7 +1,8 @@
 ﻿@page "/"
 @inject HttpClient HttpClient
 @inject NavigationManager NavigationManager
-
+@inject OrderState OrderState
+@inject IJSRuntime JS
 <PageTitle>HomePage</PageTitle>
 
 <HomeBanner/>
@@ -48,8 +49,27 @@
 </FluentGrid>
 
 <Hotsale/>
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button>
 
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Giỏ hàng</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+   @foreach(var item in OrderState.Order.Phones){
+        <ProductCartDialog phone="item" OnRemove="@(()=>RemovePhone(item))"/>
+	}
 
+    <div class="order-total @(OrderState.Order.Phones.Any() ? "" : "hidden")">
+    Total:
+        <span class="total-price">@OrderState.Order.GetFormattedTotalPrice()</span>
+        <a href="checkout" class="@(OrderState.Order.Phones.Count == 0 ? "btn btn-warning disabled" : "btn btn-warning")">
+            Order >
+        </a>
+    </div>
+</div>
+</div>
 @code{
     List<Phone> Phones = new List<Phone>();
     protected override async Task OnInitializedAsync()
@@ -61,4 +81,11 @@
 		NavigationManager.NavigateTo($"/Detail/{id}");
 	}
 
+    async Task RemovePhone(Phone phone)
+    {
+        if (await JS.InvokeAsync<bool>("confirm", $"Remove {phone.Model}  from the order?"))
+        {
+            OrderState.RemovePhoneFromOrder(phone);
+        }
+    }
 }

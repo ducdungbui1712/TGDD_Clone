@@ -15,4 +15,6 @@ public class Order
     public decimal GetTotalPrice() => Phones.Sum(p => p.GetTotalPrice());
 
     public string GetFormattedTotalPrice() => GetTotalPrice().ToString("0.00");
+    public DateTime LastAccessed { get; set; }
+    public int TimeToLiveInSeconds { get; set; } = 30; // default
 }

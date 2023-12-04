@@ -1,7 +1,7 @@
 @page "/Detail/{Id:int}"
 @inject NavigationManager NavigationManager
 @inject HttpClient HttpClient
-
+@inject OrderState OrderState
 @if (arrImage != null)
 {
 
@@ -42,17 +42,20 @@
 							<span class="color blue"></span>
 						</h5>
 						<div class="action">
-              <FluentButton IconStart="@(new Icons.Regular.Size24.Cart())"  class="d-block button">
+              <FluentButton @onclick="()=> OrderState.AddPhoneToOrder(phone)" IconStart="@(new Icons.Regular.Size24.Cart())"  class="d-block button">
                         Mua Ngay
               </FluentButton>
 						</div>
     </FluentGridItem>
   </FluentGrid>
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button>
+
+
 }
 
 
 @code {
-  Phone phone = new Phone();
+	Phone phone = new Phone();
   string test = "test";
   [Parameter]
   public int Id { get; set; }
@@ -61,6 +64,7 @@
   {
     phone = await HttpClient.GetFromJsonAsync<Phone>($"{NavigationManager.BaseUri}phones/{Id}");
     arrImage = phone.ProductImage.Split(',');
+
   }
 
 

@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using TGDD_Clone_2;
 using TGDD_Clone_2.Data;
+using TGDD_Clone_2.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,8 +10,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddHttpClient();
+
 builder.Services.AddSqlite<DBContext>("Data Source=dbContext.db");
 
+// Add the AppState class
+builder.Services.AddScoped<Order>();
+builder.Services.AddScoped<OrderState>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
