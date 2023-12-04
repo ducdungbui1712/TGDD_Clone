@@ -1,7 +1,15 @@
-﻿<FluentHeader Style="background-color: black; height: 60px; margin-bottom: 0; font-weight: normal;">
+﻿@using TGDD_Clone_2.Data;
+@using Microsoft.EntityFrameworkCore;
+@using System.Timers;
+@inject DBContext dbContext;
+@inject IJSRuntime JSRuntime;
+
+
+
+<FluentHeader Style="background-color: black; height: 60px; margin-bottom: 0; font-weight: normal;">
     <div class="grid-component" style="width: 100%;">
-        <FluentGrid Style="max-width: 1200px; margin: auto;" Justify="JustifyContent.SpaceBetween">
-            <FluentGridItem Justify="JustifyContent.FlexStart">
+        <FluentGrid Style="max-width: 1200px; margin: auto;" Justify="@navbarJustifyContent">
+            <FluentGridItem Style="@logoStyle" Justify="JustifyContent.FlexStart">
                 <FluentStack style="justify-content: center;" VerticalAlignment="VerticalAlignment.Center"
                     Orientation="Orientation.Horizontal">
                     <span><i class="nav-logo"></i></span>
@@ -15,38 +23,63 @@
             <FluentGridItem class="nav-menu" Style="@showNavMenu" Justify="JustifyContent.Center">
                 <ul class="nav-container">
                     <li>
-                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.PhonePagination())"
-                            class="navset">Điện Thoại</FluentNavLink>
+                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.PhonePagination())">Điện
+                            Thoại</FluentNavLink>
                     </li>
                     <li>
-                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.PhoneDesktop())"
-                            class="navset">Laptop</FluentNavLink>
+                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.PhoneDesktop())">Laptop
+                        </FluentNavLink>
                     </li>
                     <li>
-                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.Tablet())"
-                            class="navset">
-                            Tablet</FluentNavLink>
+                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.Tablet())">Tablet
+                        </FluentNavLink>
                     </li>
                     <li>
-                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.Headphones())"
-                            class="navset">Phụ Kiện</FluentNavLink>
+                        <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.Headphones())">Phụ Kiện
+                        </FluentNavLink>
                     </li>
                 </ul>
 
             </FluentGridItem>
 
-            <FluentGridItem Justify="JustifyContent.FlexEnd">
+            <FluentGridItem Style="@searchStyle" Justify="JustifyContent.FlexEnd">
                 <FluentStack style="justify-content: center;" VerticalAlignment="VerticalAlignment.Center"
                     Orientation="Orientation.Horizontal">
                     <div class="nav-search-icon" @onclick="ToggleSearch">
                         <FluentIcon Value="@(new Icons.Regular.Size24.Search())" Color="@Color.Fill" />
                     </div>
-                    <FluentSearch Style="@searchStyle" Placeholder="Placeholder"></FluentSearch>
                     <div title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
                         <FluentIcon Value="@(new Icons.Regular.Size24.AlignSpaceEvenlyVertical())"
                             Color="@Color.Fill" />
                     </div>
-                </FluentStack>           
+                </FluentStack>
+            </FluentGridItem>
+            <FluentGridItem Style="@searchBarStyle" Justify="JustifyContent.Center">
+                <FluentStack Orientation="Orientation.Vertical" HorizontalAlignment="HorizontalAlignment.Center">
+                    <FluentSearch @ref=searchTest @bind-Value="SearchValue"
+                        @oninput="@(e => SearchValue = e.Value?.ToString())" AfterBindValue="HandleClear"
+                        Placeholder="Search for name" />
+
+                    <div>
+                        @if (searchResults.Any())
+                        {
+                            <ul class="search-results-list">
+                                @foreach (var result in searchResults)
+                                {
+                                    <li>
+                                        <img src="@result.ImageUrl" alt="Product Image" class="product-image" />
+                                        <span class="product-name">@result.Model</span>
+                                    </li>
+                                }
+                            </ul>
+                        }
+                    </div>
+                </FluentStack>
+            </FluentGridItem>
+            <FluentGridItem Style="@searchBarStyle" Justify="JustifyContent.Center">
+                <div class="nav-cancel-icon" @onclick="ToggleCancel">
+                    <FluentIcon Value="@(new Icons.Regular.Size24.Dismiss())" Color="@Color.Fill" />
+                </div>
             </FluentGridItem>
         </FluentGrid>
     </div>
@@ -56,7 +89,7 @@
 <div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu" style="background-color: black; color: white;">
     <nav class="flex-column">
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+            <NavLink class="nav-link" href="#" Match="NavLinkMatch.All">
                 <FluentNavLink IconColor="@Color.Fill" Icon="@(new Icons.Regular.Size20.PhonePagination())">Điện Thoại
                 </FluentNavLink>
             </NavLink>
@@ -82,32 +115,129 @@
     </nav>
 </div>
 
-@* <div class="bg-sg" Style="@bgSg"></div> *@
+<div class="bg-sg" Style="@bgSg"></div>
 
 @code {
     private bool collapseNavMenu = true;
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : "un-collapse";
-    private bool showSearch = false;
-    private string searchStyle = "align-items: center; display: none;";
+    private string logoStyle = "display: flex;";
+    private string showNavMenu = "display: flex;";
+    private string searchStyle = "display: flex;";
+    private string searchBarStyle = "display: none;";
+    JustifyContent navbarJustifyContent = JustifyContent.SpaceBetween;
+
     private string bgSg = "display: none;";
-    private string showNavMenu = "align-items: center;";
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
     }
 
-    private void ToggleSearch()
+    private async void ToggleSearch()
     {
-        showSearch = !showSearch;
-        if (showSearch)
-        {
-            searchStyle = "align-items: center; display: block;";
-            bgSg = "display: block;";
+        searchBarStyle = "align-items: center; display: flex; position: relative; z-index: 10;";
+        bgSg = "display: block;";
+        logoStyle = "display: none;";
+        showNavMenu = "display: none;";
+        searchStyle = "display: none;";
+        navbarJustifyContent = JustifyContent.Center;
+        StateHasChanged();
+        await JSRuntime.InvokeVoidAsync("setBodyStyle", "hidden");
+    }
 
+    private async void ToggleCancel()
+    {
+        searchBarStyle = "display: none;";
+        bgSg = "display: none;";
+        logoStyle = "display: flex;";
+        showNavMenu = "display: flex;";
+        searchStyle = "display: flex;";
+        navbarJustifyContent = JustifyContent.SpaceBetween;
+        StateHasChanged();
+        await JSRuntime.InvokeVoidAsync("setBodyStyle", "unset");
+    }
+}
+
+@code {
+    private Timer? timer = null;
+
+    private FluentSearch? searchTest;
+
+    private string? searchValue = string.Empty;
+
+    private string? SearchValue
+    {
+        get => searchValue;
+        set
+        {
+            if (value != searchValue)
+            {
+                searchValue = value;
+                DisposeTimer();
+                //ShowMessageBar the debounce time in ms to the timer below
+                timer = new Timer(400);
+                timer.Elapsed += TimerElapsed_TickAsync;
+                timer.Enabled = true;
+                timer.Start();
+            }
+        }
+    }
+
+    private List<Phone> searchResults { get; set; } = new List<Phone>();
+
+    private static List<Phone> defaultResults()
+    {
+        return new List<Phone>();
+    }
+
+    private async void TimerElapsed_TickAsync(object? sender, EventArgs e)
+    {
+        DisposeTimer();
+        await InvokeAsync(OnSearch);
+    }
+
+    private void DisposeTimer()
+    {
+        if (timer != null)
+        {
+            timer.Enabled = false;
+            timer.Elapsed -= TimerElapsed_TickAsync;
+            timer.Dispose();
+            timer = null;
+        }
+    }
+
+    private async Task OnSearch()
+    {
+        if (!string.IsNullOrWhiteSpace(searchValue))
+        {
+            var keywords = searchValue.Split(' ');
+            IQueryable<Phone> query = dbContext.Phones.AsNoTracking();
+
+            foreach (var keyword in keywords)
+            {
+                var tempKeyword = keyword; // To avoid issues with modified closure
+                query = query.Where(phone => EF.Functions.Like(phone.Model, $"%{tempKeyword}%"));
+            }
+
+            var temp = await query.ToListAsync();
+            searchResults = temp.Any() ? temp : defaultResults();
         }
         else
         {
-            searchStyle = "display: none;";
+            searchResults = defaultResults();
         }
+        StateHasChanged();
+    }
+
+
+    private void HandleClear(string value)
+    {
+        if (string.IsNullOrWhiteSpace(value))
+            return;
+
+        DisposeTimer();
+        searchResults = defaultResults();
+        SearchValue = string.Empty;
+        StateHasChanged();
     }
 }

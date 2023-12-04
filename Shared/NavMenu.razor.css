@@ -1,4 +1,5 @@
-.nav-search-icon {
+.nav-search-icon,
+.nav-cancel-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +13,8 @@
   cursor: pointer;
 }
 
-.nav-search-icon:hover {
+.nav-search-icon:hover,
+.nav-cancel-icon:hover {
   background-color: #5e5e60;
 }
 
@@ -141,7 +143,7 @@
   bottom: 0;
   background: #000;
   opacity: 0.8;
-  z-index: 9998;
+  z-index: 9;
 }
 
 @media (min-width: 830px) {
@@ -164,7 +166,5 @@
 @media (max-width: 830px) {
   .nav-container {
     display: none;
-
-    
   }
 }

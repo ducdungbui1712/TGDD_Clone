@@ -1,43 +1,112 @@
 @page "/TestSearch"
 @using TGDD_Clone_2.Data
 @using Microsoft.EntityFrameworkCore;
+@using System.Timers;
 @inject DBContext dbContext
 
-<input @oninput="@OnInput" placeholder="Tìm kiếm sản phẩm..." />
 
-@if (!FilteredProducts.Any())
+<FluentSearch @ref=searchTest @bind-Value="SearchValue" @oninput="@(e => SearchValue = e.Value?.ToString())"
+    AfterBindValue="HandleClear" Placeholder="Search for name" />
+<br />
+@if (searchResults.Any())
 {
-    <p><em>Loading...</em></p>
+    <ul class="search-results-list">
+        @foreach (var result in searchResults)
+        {
+            <li>
+                <img src="@result.ImageUrl" alt="Product Image" class="product-image" />
+                <span class="product-name">@result.Model</span>
+            </li>
+        }
+    </ul>
 }
-else
-{
-    foreach (var product in FilteredProducts)
-    {
-        <div>@product.Model</div>
-    }
-}
+
+<p>
+    You searched for: @SearchValue
+</p>
 
 @code {
-    private string? SearchText;
-    private List<Phone> FilteredProducts { get; set; } = new List<Phone>();
-    private async Task OnInput(ChangeEventArgs e)
-    {
-        SearchText = e.Value.ToString();
-        if (!string.IsNullOrEmpty(SearchText))
-        {
+    private Timer? timer = null;
 
-            var keywords = SearchText.Split(' ');
-            IQueryable<Phone> query = dbContext.Phones;
+    private FluentSearch? searchTest;
+
+    private string? searchValue = string.Empty;
+
+    private string? SearchValue
+    {
+        get => searchValue;
+        set
+        {
+            if (value != searchValue)
+            {
+                searchValue = value;
+                DisposeTimer();
+                //ShowMessageBar the debounce time in ms to the timer below
+                timer = new Timer(400);
+                timer.Elapsed += TimerElapsed_TickAsync;
+                timer.Enabled = true;
+                timer.Start();
+            }
+        }
+    }
+
+    private List<Phone> searchResults { get; set; } = new List<Phone>();
+
+    private static List<Phone> defaultResults()
+    {
+        return new List<Phone>();
+    }
+
+    private async void TimerElapsed_TickAsync(object? sender, EventArgs e)
+    {
+        DisposeTimer();
+        await InvokeAsync(OnSearch);
+    }
+
+    private void DisposeTimer()
+    {
+        if (timer != null)
+        {
+            timer.Enabled = false;
+            timer.Elapsed -= TimerElapsed_TickAsync;
+            timer.Dispose();
+            timer = null;
+        }
+    }
+
+    private async Task OnSearch()
+    {
+        if (!string.IsNullOrWhiteSpace(searchValue))
+        {
+            var keywords = searchValue.Split(' ');
+            IQueryable<Phone> query = dbContext.Phones.AsNoTracking();
+
             foreach (var keyword in keywords)
             {
-                var temp = keyword; // To avoid issues with modified closure
-                query = query.Where(product => EF.Functions.Like(product.Model, $"%{temp}%"));
+                var tempKeyword = keyword; // To avoid issues with modified closure
+                query = query.Where(phone => EF.Functions.Like(phone.Model, $"%{tempKeyword}%"));
             }
-            FilteredProducts = await query.ToListAsync();
+
+            var temp = await query.ToListAsync();
+            searchResults = temp.Any() ? temp : defaultResults();
         }
         else
         {
-            FilteredProducts = new List<Phone>();
+            searchResults = defaultResults();
         }
+        StateHasChanged();
+    }
+
+
+    private void HandleClear(string value)
+    {
+        if (string.IsNullOrWhiteSpace(value))
+            return;
+
+        DisposeTimer();
+        searchResults = defaultResults();
+        SearchValue = string.Empty;
+        StateHasChanged();
     }
 }
+
