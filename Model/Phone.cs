@@ -32,5 +32,9 @@ public class Phone{
     }
     public string ProductImage{get; set;}
 
-    public string GetFormattedBasePrice() => BasePrice.ToString("0.00");
+    public decimal GetTotalPrice()
+    {
+        return this.BasePrice + this.BasePrice*this.Discount;
+    }
+    public string GetFormattedBasePrice() => GetTotalPrice().ToString("0.00");
 }
