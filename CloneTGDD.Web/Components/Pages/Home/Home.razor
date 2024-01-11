@@ -1,0 +1,130 @@
+﻿@page "/"
+@inject ProductsApiClient ProductsApi
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+@attribute [StreamRendering]
+@* @attribute [OutputCache(Duration = 10)] *@
+
+<PageTitle>Home</PageTitle>
+
+<div class="custom-carousel">
+    <div id="carouselBanner" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            @for (int i = 0; i < bannerImages.Count; i++)
+            {
+                <div class="carousel-item @(i == 0 ? "active" : "")">
+                    <img src="@bannerImages[i]" class="d-block w-100" alt="Banner @(i + 1)">
+                </div>
+            }
+        </div>
+        <ol class="carousel-indicators">
+            @for (int i = 0; i < bannerImages.Count; i++)
+            {
+                <li data-bs-target="#carouselBanner" data-bs-slide-to="@i" class="@(i == 0 ? "active" : "")"></li>
+            }
+        </ol>
+        <button class="carousel-control-prev btn shadow-none border-0" id="prevButton">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next btn shadow-none border-0" id="nextButton">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+</div>
+
+
+
+
+<section id="collection" class="py-5">
+    <div class="container">
+        <div class="row g-4">
+            @if (!products.Any())
+            {
+                <p><em>Loading...</em></p>
+            }
+            else
+            {
+                @foreach (var categoryGroup in products.GroupBy(p => p.CategoryId))
+                {
+                    var categoryName = "";
+                    if (categoryGroup.Key == 1)
+                    {
+                        categoryName = "Phone";
+                    }
+                    if (categoryGroup.Key == 2)
+                    {
+                        categoryName = "Laptop";
+                    }
+                  
+                    
+                    <div class="col-md-12">
+                        <h2 class="text-center category-heading mb-4">@categoryName.ToUpper()</h2>
+                    </div>
+
+                    @foreach (var product in categoryGroup)
+                    {
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm product-card" @onclick="() => NavigateToDetailPage(product.Id)">
+                                <img src="@product.ImageUrl" alt="@product.Model" class="card-img-top img-fluid">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">@product.Model</h5>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between align-items-center">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary add-to-cart-btn" @onclick="() => AddToCart(product.Id)">Add to Cart</button>
+                                    <span class="text-muted">Price: $@product.BasePrice</span>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            }
+            
+        </div>
+    </div>
+</section>
+
+@code {
+    public List<ProductsDTO> products = new();
+    public List<CategoryDTO> categories = new();
+    public List<String> bannerImages = new();
+    
+    protected override async Task OnInitializedAsync()
+    {
+        ResponseDTO? ProductResponseDTO = await ProductsApi.GetProductsDTO();
+        ResponseDTO? CategoryResponseDTO = await ProductsApi.GetCategoryDTO();
+
+        if (ProductResponseDTO != null && ProductResponseDTO.IsSuccess)
+        {
+            products = JsonConvert.DeserializeObject<List<ProductsDTO>>(Convert.ToString(ProductResponseDTO.Result));
+        }
+
+        if (CategoryResponseDTO != null && CategoryResponseDTO.IsSuccess)
+        {
+            categories = JsonConvert.DeserializeObject<List<CategoryDTO>>(Convert.ToString(CategoryResponseDTO.Result));
+            foreach (var category in categories)
+            {
+                bannerImages.AddRange(category.BannerUrl.Split("##").ToList());
+            }
+        }
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("bindCarouselControls");
+        }
+    }
+
+    private void NavigateToDetailPage(int id)
+    {
+        NavigationManager.NavigateTo($"/Detail/{id}");
+    }
+
+
+    private void AddToCart(int productId)
+    {
+        // Add your logic for adding the product to the cart
+        // You may want to use a service or communicate with your backend
+    }
+}

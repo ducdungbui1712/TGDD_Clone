@@ -1,0 +1,90 @@
+﻿.custom-carousel {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3e3f41;
+    background: #3e3f41;
+    color: lightgray;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+
+.carousel-control-prev {
+    left: 15px;
+}
+
+.carousel-control-next {
+    right: 15px;
+}
+
+.carousel-indicators li {
+    background-color: #3e3f41; /* or any color you prefer */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel-fade .carousel-item {
+    transition: opacity 0.5s ease-in-out;
+}
+
+    .carousel-fade .carousel-item-next.carousel-item-left,
+    .carousel-fade .carousel-item-prev.carousel-item-right,
+    .carousel-fade .carousel-item.active {
+        opacity: 1;
+    }
+
+.carousel-fade .carousel-item-left,
+.carousel-fade .carousel-item-right {
+    opacity: 0;
+}
+
+.carousel-inner img {
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.category-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Adjust the color as needed */
+}
+
+.product-card {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer; /* Add cursor pointer on hover */
+}
+
+    .product-card:hover {
+        transform: scale(1.05);
+    }
+
+.card-title {
+    margin-bottom: 10px;
+}
+
+.add-to-cart-btn {
+    background-color: #28a745; /* Green color, you can change it */
+    color: #fff; /* White text */
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+    .add-to-cart-btn:hover {
+        background-color: #218838; /* Darker green on hover */
+    }
