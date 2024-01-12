@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj": {}
+    "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj": {
+    "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj",
+        "projectUniqueName": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj",
         "projectName": "MicroApp.ServiceDefaults",
-        "projectPath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj",
+        "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj",
         "packagesPath": "C:\\Users\\DungBui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\obj\\",
+        "outputPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DungBui\\AppData\\Roaming\\NuGet\\NuGet.Config",

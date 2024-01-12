@@ -20,38 +20,14 @@
   {
     "ContainingType": "Products.API.Apis.ProductsApi\u002B\u003C\u003Ec",
     "Method": "\u003CMapProductsApi\u003Eb__0_3",
-    "RelativePath": "api/category/{category}",
+    "RelativePath": "api/category/{id:int}",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "category",
+        "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Products.API.Models.DTO.ResponseDTO",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Products.API.Apis.ProductsApi\u002B\u003C\u003Ec",
-    "Method": "\u003CMapProductsApi\u003Eb__0_4",
-    "RelativePath": "api/items",
-    "HttpMethod": "GET",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "searchTerm",
-        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -97,6 +73,54 @@
     "IsController": false,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Products.API.Models.DTO.ResponseDTO",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Products.API.Apis.ProductsApi\u002B\u003C\u003Ec",
+    "Method": "\u003CMapProductsApi\u003Eb__0_4",
+    "RelativePath": "api/products/{category}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Products.API.Models.DTO.ResponseDTO",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Products.API.Apis.ProductsApi\u002B\u003C\u003Ec",
+    "Method": "\u003CMapProductsApi\u003Eb__0_5",
+    "RelativePath": "api/search",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchTerm",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "Products.API.Models.DTO.ResponseDTO",

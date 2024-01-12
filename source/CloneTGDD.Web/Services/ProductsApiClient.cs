@@ -21,7 +21,7 @@ namespace CloneTGDD.Web.Services
 
         public async Task<ResponseDTO> SearchProduct(string searchTerm)
         {
-            var uri = $"{remoteServiceBaseUrl}/items?searchTerm={searchTerm}";
+            var uri = $"{remoteServiceBaseUrl}/search?searchTerm={searchTerm}";
             return await client.GetFromJsonAsync<ResponseDTO>(uri) ?? throw new Exception("The API response was null.");
         }
 
@@ -31,9 +31,15 @@ namespace CloneTGDD.Web.Services
             return await client.GetFromJsonAsync<ResponseDTO>(uri) ?? throw new Exception("The API response was null.");
         }
 
+        public async Task<ResponseDTO> GetCategoryDTOById(int id)
+        {
+            var uri = $"{remoteServiceBaseUrl}/category/{id}";
+            return await client.GetFromJsonAsync<ResponseDTO>(uri) ?? throw new Exception("The API response was null.");
+        }
+
         public async Task<ResponseDTO> GetProductsByCategory(int category)
         {
-            var uri = $"{remoteServiceBaseUrl}/category/{category}";
+            var uri = $"{remoteServiceBaseUrl}/products/{category}";
             return await client.GetFromJsonAsync<ResponseDTO>(uri) ?? throw new Exception("The API response was null.");
         }
 

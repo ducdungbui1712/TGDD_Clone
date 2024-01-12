@@ -46,9 +46,14 @@ main[b-1s0lb5d1d8] {
         background-color: #5e5e60;
     }
 
+.navbar-brand[b-guzu9sv451] {
+    cursor: pointer;
+}
+
 .menu li[b-guzu9sv451] {
     width: 14%;
     transition: opacity .2s cubic-bezier(.645,.045,.355,1);
+    cursor: pointer;
 }
 
     .menu li:hover a[b-guzu9sv451] {
@@ -205,6 +210,27 @@ main[b-1s0lb5d1d8] {
 }
 
 /* _content/CloneTGDD.Web/Components/Pages/CategoryPage/CategoryPage.razor.rz.scp.css */
+/*
+
+.carousel-control-prev, .carousel-control-next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    background: #3e3f41;
+    color: lightgray;
+    border-radius: 100%;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    cursor: pointer;
+}
+
+.carousel-indicators li {
+    background-color: #007bff;
+}
+*/
 /* _content/CloneTGDD.Web/Components/Pages/Detail/Detail.razor.rz.scp.css */
 .carousel[b-acm0li3g1i] {
     position: relative;
@@ -293,7 +319,7 @@ main[b-1s0lb5d1d8] {
 }
 
 .carousel-indicators li[b-aghc6jn8v1] {
-    background-color: #3e3f41; /* or any color you prefer */
+    background-color: #3e3f41; 
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -318,33 +344,3 @@ main[b-1s0lb5d1d8] {
     max-height: 600px;
     object-fit: cover;
 }
-
-.category-heading[b-aghc6jn8v1] {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333; /* Adjust the color as needed */
-}
-
-.product-card[b-aghc6jn8v1] {
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer; /* Add cursor pointer on hover */
-}
-
-    .product-card:hover[b-aghc6jn8v1] {
-        transform: scale(1.05);
-    }
-
-.card-title[b-aghc6jn8v1] {
-    margin-bottom: 10px;
-}
-
-.add-to-cart-btn[b-aghc6jn8v1] {
-    background-color: #28a745; /* Green color, you can change it */
-    color: #fff; /* White text */
-    border: none;
-    transition: background-color 0.3s ease-in-out;
-}
-
-    .add-to-cart-btn:hover[b-aghc6jn8v1] {
-        background-color: #218838; /* Darker green on hover */
-    }

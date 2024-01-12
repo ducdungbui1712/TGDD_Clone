@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gmy0xrhhOHyrSbm77TuMdgMXb5rlzAKMkvi454T9CjQzJs1+Fgmzr7yOt1AdU8yCbhLL0kLwfMdJrzxJSX7jIw==",
+  "dgSpecHash": "hFI6WIx1itN7q+2lo/C7zX00P13mRSsKgfdLOrvHOZ83TNWIL99wKPW6+wr9ilOKOyO/d4ltA/QEP4EXM8Z0EQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj",
+  "projectFilePath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DungBui\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\DungBui\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.AppHost\\MicroApp.AppHost.csproj": {}
+    "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.AppHost\\MicroApp.AppHost.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj": {
+    "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj",
+        "projectUniqueName": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj",
         "projectName": "CloneTGDD.Web",
-        "projectPath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj",
+        "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj",
         "packagesPath": "C:\\Users\\DungBui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\obj\\",
+        "outputPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DungBui\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -30,11 +30,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj": {
-                "projectPath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj"
+              "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj": {
+                "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj"
               },
-              "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj": {
-                "projectPath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj"
+              "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj": {
+                "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj"
               }
             }
           }
@@ -57,6 +57,14 @@
             "Aspire.StackExchange.Redis.OutputCaching": {
               "target": "Package",
               "version": "[8.0.0-preview.2.23619.3, )"
+            },
+            "Microsoft.FluentUI.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.FluentUI.AspNetCore.Components.Icons": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -86,14 +94,14 @@
         }
       }
     },
-    "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.AppHost\\MicroApp.AppHost.csproj": {
+    "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.AppHost\\MicroApp.AppHost.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.AppHost\\MicroApp.AppHost.csproj",
+        "projectUniqueName": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.AppHost\\MicroApp.AppHost.csproj",
         "projectName": "MicroApp.AppHost",
-        "projectPath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.AppHost\\MicroApp.AppHost.csproj",
+        "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.AppHost\\MicroApp.AppHost.csproj",
         "packagesPath": "C:\\Users\\DungBui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.AppHost\\obj\\",
+        "outputPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.AppHost\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DungBui\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -112,11 +120,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj": {
-                "projectPath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj"
+              "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj": {
+                "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj"
               },
-              "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj": {
-                "projectPath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj"
+              "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj": {
+                "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj"
               }
             }
           }
@@ -161,14 +169,14 @@
         }
       }
     },
-    "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj": {
+    "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj",
+        "projectUniqueName": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj",
         "projectName": "MicroApp.ServiceDefaults",
-        "projectPath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj",
+        "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj",
         "packagesPath": "C:\\Users\\DungBui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\obj\\",
+        "outputPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DungBui\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -260,14 +268,14 @@
         }
       }
     },
-    "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj": {
+    "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj",
+        "projectUniqueName": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj",
         "projectName": "Products.API",
-        "projectPath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj",
+        "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj",
         "packagesPath": "C:\\Users\\DungBui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\obj\\",
+        "outputPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DungBui\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -286,8 +294,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj": {
-                "projectPath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj"
+              "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj": {
+                "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj"
               }
             }
           }

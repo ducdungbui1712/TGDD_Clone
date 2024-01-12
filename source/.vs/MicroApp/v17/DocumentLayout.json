@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72492C27-4F8D-49E6-BE1D-06B9325A8E69}|Products.API\\Products.API.csproj|c:\\users\\dungbui\\desktop\\new folder\\tgdd_clone_dotnet_aspire\\source\\products.api\\models\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72492C27-4F8D-49E6-BE1D-06B9325A8E69}|Products.API\\Products.API.csproj|solutionrelative:products.api\\models\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Models\\DTO\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "Products.API\\Models\\DTO\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Models\\DTO\\ProductDTO.cs",
+              "RelativeToolTip": "Products.API\\Models\\DTO\\ProductDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-12T09:12:16.73Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

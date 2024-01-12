@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x1Gp8PLdjJkfBAlYASKXCoIRZkQTNIrNolsLuwF+0Jbi+b/dFdWdYT36xKCm1wkXA/+Hlxhp1Fvm/MGFOIFF0A==",
+  "dgSpecHash": "hbEJM4fKAQe5WsChGVg0ML5oqTEcYMW1cQPlFZyaWZamXwIMXoNNvGPbTZHRbNjriVqLvfGe5Ok7fVCIjZ5hPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj",
+  "projectFilePath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DungBui\\.nuget\\packages\\google.protobuf\\3.22.5\\google.protobuf.3.22.5.nupkg.sha512",
     "C:\\Users\\DungBui\\.nuget\\packages\\grpc.core.api\\2.52.0\\grpc.core.api.2.52.0.nupkg.sha512",

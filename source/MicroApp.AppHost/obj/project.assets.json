@@ -2877,7 +2877,7 @@
           "buildTransitive/net6.0/Microsoft.Extensions.Telemetry.Abstractions.targets": {}
         }
       },
-      "Microsoft.FluentUI.AspNetCore.Components/4.1.1": {
+      "Microsoft.FluentUI.AspNetCore.Components/4.3.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "8.0.0",
@@ -2902,10 +2902,10 @@
           "buildMultiTargeting/Microsoft.FluentUI.AspNetCore.Components.props": {}
         }
       },
-      "Microsoft.FluentUI.AspNetCore.Components.Icons/4.1.0": {
+      "Microsoft.FluentUI.AspNetCore.Components.Icons/4.3.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.FluentUI.AspNetCore.Components": "4.0.0"
+          "Microsoft.FluentUI.AspNetCore.Components": "4.2.1"
         },
         "compile": {
           "lib/net8.0/Microsoft.FluentUI.AspNetCore.Components.Icons.dll": {
@@ -4443,6 +4443,8 @@
         "dependencies": {
           "Aspire.StackExchange.Redis.OutputCaching": "8.0.0-preview.2.23619.3",
           "MicroApp.ServiceDefaults": "1.0.0",
+          "Microsoft.FluentUI.AspNetCore.Components": "4.3.0",
+          "Microsoft.FluentUI.AspNetCore.Components.Icons": "4.3.0",
           "Newtonsoft.Json": "13.0.3",
           "Products.API": "1.0.0"
         },
@@ -8869,10 +8871,10 @@
         "microsoft.extensions.telemetry.abstractions.nuspec"
       ]
     },
-    "Microsoft.FluentUI.AspNetCore.Components/4.1.1": {
-      "sha512": "WwnAxrcGxw81hXqvIDOiZhL4cB6Ma//PTr/jgJYDyueFFz/7KsU5QTkrNQiPlfb/YoYGeou8MdCmjPdgGMUdZw==",
+    "Microsoft.FluentUI.AspNetCore.Components/4.3.0": {
+      "sha512": "JfhaDAysYCKWSm/HPS20Ks8+7QIkfmqL70Php3O7mjkYM0dFW58FMO33CMSvXbR6MEG/lJEH5hBxQvj5/NNl8w==",
       "type": "package",
-      "path": "microsoft.fluentui.aspnetcore.components/4.1.1",
+      "path": "microsoft.fluentui.aspnetcore.components/4.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8884,35 +8886,39 @@
         "icon.png",
         "lib/net8.0/Microsoft.FluentUI.AspNetCore.Components.dll",
         "lib/net8.0/Microsoft.FluentUI.AspNetCore.Components.xml",
-        "microsoft.fluentui.aspnetcore.components.4.1.1.nupkg.sha512",
+        "microsoft.fluentui.aspnetcore.components.4.3.0.nupkg.sha512",
         "microsoft.fluentui.aspnetcore.components.nuspec",
         "staticwebassets/Components/Anchor/FluentAnchor.razor.js",
+        "staticwebassets/Components/Button/FluentButton.razor.js",
         "staticwebassets/Components/Checkbox/FluentCheckbox.razor.js",
         "staticwebassets/Components/DataGrid/FluentDataGrid.razor.js",
+        "staticwebassets/Components/DesignSystemProvider/FluentDesignTheme.razor.js",
         "staticwebassets/Components/Divider/FluentDivider.razor.js",
+        "staticwebassets/Components/Grid/FluentGrid.razor.js",
         "staticwebassets/Components/HorizontalScroll/FluentHorizontalScroll.razor.js",
         "staticwebassets/Components/InputFile/FluentInputFile.razor.js",
         "staticwebassets/Components/Label/FluentInputLabel.razor.js",
         "staticwebassets/Components/List/FluentAutocomplete.razor.js",
         "staticwebassets/Components/Menu/FluentMenu.razor.js",
+        "staticwebassets/Components/NavMenu/FluentNavMenu.razor.js",
         "staticwebassets/Components/Overflow/FluentOverflow.razor.js",
         "staticwebassets/Components/Search/FluentSearch.razor.js",
+        "staticwebassets/Components/Slider/FluentSliderLabel.razor.js",
         "staticwebassets/Components/Tabs/FluentTab.razor.js",
         "staticwebassets/Components/TextField/FluentTextField.razor.js",
         "staticwebassets/Microsoft.FluentUI.AspNetCore.Components.bundle.scp.css",
         "staticwebassets/Microsoft.FluentUI.AspNetCore.Components.lib.module.js",
-        "staticwebassets/css/Microsoft.FluentUI.AspNetCore.Components.css",
+        "staticwebassets/Microsoft.FluentUI.AspNetCore.Components.lib.module.js.LEGAL.txt",
+        "staticwebassets/Microsoft.FluentUI.AspNetCore.Components.lib.module.js.map",
         "staticwebassets/css/reboot.css",
-        "staticwebassets/css/variables.css",
-        "staticwebassets/js/SplitPanels.js",
         "staticwebassets/js/initializersLoader.webview.js",
-        "staticwebassets/js/web-components-v2.5.16.min.js"
+        "staticwebassets/js/loading-theme.js"
       ]
     },
-    "Microsoft.FluentUI.AspNetCore.Components.Icons/4.1.0": {
-      "sha512": "oSR+yTERXlgz9+wlMQuCp1l3ReKe4hGqLyWN/ZpR+EbpTtNpFZZIex9mKM+G0kAebaRfhuBTokXRN5hKPVBqcg==",
+    "Microsoft.FluentUI.AspNetCore.Components.Icons/4.3.0": {
+      "sha512": "9GbFyTSqHEE7JJN9d0LGFFN4YKRsPvyz+/IjSz4l5J14HnIyNkEl2ew3gSD6QgPwzGdTtgahf2BZO7xXXUiRbw==",
       "type": "package",
-      "path": "microsoft.fluentui.aspnetcore.components.icons/4.1.0",
+      "path": "microsoft.fluentui.aspnetcore.components.icons/4.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8920,7 +8926,7 @@
         "icon.png",
         "lib/net8.0/Microsoft.FluentUI.AspNetCore.Components.Icons.dll",
         "lib/net8.0/Microsoft.FluentUI.AspNetCore.Components.Icons.xml",
-        "microsoft.fluentui.aspnetcore.components.icons.4.1.0.nupkg.sha512",
+        "microsoft.fluentui.aspnetcore.components.icons.4.3.0.nupkg.sha512",
         "microsoft.fluentui.aspnetcore.components.icons.nuspec"
       ]
     },
@@ -11746,11 +11752,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.AppHost\\MicroApp.AppHost.csproj",
+      "projectUniqueName": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.AppHost\\MicroApp.AppHost.csproj",
       "projectName": "MicroApp.AppHost",
-      "projectPath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.AppHost\\MicroApp.AppHost.csproj",
+      "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.AppHost\\MicroApp.AppHost.csproj",
       "packagesPath": "C:\\Users\\DungBui\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.AppHost\\obj\\",
+      "outputPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.AppHost\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DungBui\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11769,11 +11775,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj": {
-              "projectPath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj"
+            "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj": {
+              "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj"
             },
-            "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj": {
-              "projectPath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj"
+            "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj": {
+              "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj"
             }
           }
         }

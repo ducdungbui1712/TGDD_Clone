@@ -33,61 +33,89 @@
 </div>
 
 
-
-
-<section id="collection" class="py-5">
-    <div class="container">
-        <div class="row g-4">
-            @if (!products.Any())
-            {
-                <p><em>Loading...</em></p>
-            }
-            else
-            {
-                @foreach (var categoryGroup in products.GroupBy(p => p.CategoryId))
+@if (products.Any())
+{
+    @foreach (var categoryGroup in products.GroupBy(p => p.CategoryId))
+    {
+        <FluentStack Class="my-4" Orientation="Orientation.Vertical" HorizontalAlignment="HorizontalAlignment.Center">
+            @{
+                var categoryName = "";
+                if (categoryGroup.Key == 1)
                 {
-                    var categoryName = "";
-                    if (categoryGroup.Key == 1)
-                    {
-                        categoryName = "Phone";
-                    }
-                    if (categoryGroup.Key == 2)
-                    {
-                        categoryName = "Laptop";
-                    }
-                  
-                    
-                    <div class="col-md-12">
-                        <h2 class="text-center category-heading mb-4">@categoryName.ToUpper()</h2>
-                    </div>
-
-                    @foreach (var product in categoryGroup)
-                    {
-                        <div class="col-md-4">
-                            <div class="card h-100 shadow-sm product-card" @onclick="() => NavigateToDetailPage(product.Id)">
-                                <img src="@product.ImageUrl" alt="@product.Model" class="card-img-top img-fluid">
-                                <div class="card-body text-center">
-                                    <h5 class="card-title">@product.Model</h5>
-                                </div>
-                                <div class="card-footer d-flex justify-content-between align-items-center">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary add-to-cart-btn" @onclick="() => AddToCart(product.Id)">Add to Cart</button>
-                                    <span class="text-muted">Price: $@product.BasePrice</span>
-                                </div>
-                            </div>
-                        </div>
-                    }
+                    categoryName = "Phone";
+                }
+                if (categoryGroup.Key == 2)
+                {
+                    categoryName = "Laptop";
                 }
             }
-            
-        </div>
-    </div>
-</section>
+            <h2 class="text-center category-heading mb-4">@categoryName.ToUpper()</h2>
+            <FluentGrid>
+                @foreach (var product in categoryGroup)
+                {
+                    <FluentGridItem xs="12" sm="6" md="3" Justify="JustifyContent.Center">
+                        <FluentCard class="text-center product-container">
+                            <FluentStack Orientation="Orientation.Vertical" HorizontalAlignment="HorizontalAlignment.Center" @onclick="()=>NavigateToDetailPage(product.Id)">
+                                <img class="card-img-top w-30 img-fluid" src="@product.ImageUrl" alt="..." />
+                                <div class="product-name">
+                                    <h5 class="m-2">@product.Model</h5>
+                                </div>
+                                <strong class="m-2 price">
+                                    <span>@product.BasePrice.ToString("C")</span>
+                                </strong>
 
+                                <FluentButton IconStart="@(new Icons.Regular.Size24.Cart())" OnClick="()=> NavigateToDetailPage(product.Id)">Mua ngay</FluentButton>
+                            </FluentStack>
+                        </FluentCard>
+                    </FluentGridItem>
+                }
+            </FluentGrid>
+        </FluentStack>
+    }
+}
+else
+{
+    <h2>Loading</h2>
+}
+
+<style>
+    .product-container {
+        cursor: pointer;
+        transition: transform .2s;
+    }
+
+        .product-container:hover {
+            transform: scale(1.05);
+        }
+
+        .product-container img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+    .product-name h5 {
+        font-size: 1.1em;
+        color: #333;
+        font-weight: bold;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .price {
+        font-size: 1.2em;
+    }
+
+        .price span {
+            color: #0078d4;
+        }
+</style>
 @code {
     public List<ProductsDTO> products = new();
     public List<CategoryDTO> categories = new();
     public List<String> bannerImages = new();
-    
+
     protected override async Task OnInitializedAsync()
     {
         ResponseDTO? ProductResponseDTO = await ProductsApi.GetProductsDTO();
@@ -115,6 +143,7 @@
             await JSRuntime.InvokeVoidAsync("bindCarouselControls");
         }
     }
+
 
     private void NavigateToDetailPage(int id)
     {

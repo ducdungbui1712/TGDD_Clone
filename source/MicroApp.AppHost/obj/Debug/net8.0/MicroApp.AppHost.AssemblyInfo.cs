@@ -17,11 +17,12 @@ using System.Reflection;
     "1.23557.2\\tools\\ext")]
 [assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Program Files\\dotnet\\packs\\Aspire.Hosting.Orchestration.win-x64\\8.0.0-preview." +
     "1.23557.2\\tools\\ext\\bin")]
-[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.AppHost")]
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.AppH" +
+    "ost")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MicroApp.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0195cd36cc420885b69f2b29515e0459db144ab1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MicroApp.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MicroApp.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

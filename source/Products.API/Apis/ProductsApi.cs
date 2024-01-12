@@ -1,4 +1,6 @@
-﻿using Azure;
+﻿using AutoMapper;
+using Azure;
+using Humanizer;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Products.API.Data;
@@ -14,13 +16,13 @@ namespace Products.API.Apis
         public static RouteGroupBuilder MapProductsApi(this RouteGroupBuilder app)
         {
             //GetProductsDTO
-            app.MapGet("/products", async Task<ResponseDTO> (DataContext dataConText) =>
+            app.MapGet("/products", async Task<ResponseDTO> (DataContext dataConText, IMapper mapper) =>
             {
                 ResponseDTO _response = new ResponseDTO();
                 try
                 {
                     IEnumerable<Product> objList = await dataConText.Products.ToListAsync();
-                    _response.Result = objList;
+                    _response.Result = mapper.Map<IEnumerable<ProductDTO>>(objList);
                 }
                 catch (Exception ex)
                 {
@@ -31,13 +33,13 @@ namespace Products.API.Apis
             });
 
             //GetProductsDTOById
-            app.MapGet("/items/{id:int}", async Task<ResponseDTO> (DataContext dataConText, int id) =>
+            app.MapGet("/items/{id:int}", async Task<ResponseDTO> (DataContext dataConText, IMapper mapper, int id) =>
             {
                 ResponseDTO _response = new ResponseDTO();
                 try
                 {
                     Product obj = await dataConText.Products.FirstAsync(o => o.Id == id);
-                    _response.Result = obj;
+                    _response.Result = mapper.Map<ProductDTO>(obj);
                 }
                 catch (Exception ex)
                 {
@@ -48,13 +50,30 @@ namespace Products.API.Apis
             });
 
             //GetCategoryDTO
-            app.MapGet("/category", async Task<ResponseDTO> (DataContext dataConText) =>
+            app.MapGet("/category", async Task<ResponseDTO> (DataContext dataConText, IMapper mapper) =>
             {
                 ResponseDTO _response = new ResponseDTO();
                 try
                 {
                     IEnumerable<Category> objList = await dataConText.Categories.ToListAsync();
-                    _response.Result = objList;
+                    _response.Result = mapper.Map<IEnumerable<CategoryDTO>>(objList);
+                }
+                catch (Exception ex)
+                {
+                    _response.IsSuccess = false;
+                    _response.Message = ex.Message;
+                }
+                return _response;
+            });
+
+            //GetCategoryDTOById
+            app.MapGet("/category/{id:int}", async Task<ResponseDTO> (DataContext dataConText, IMapper mapper, int id) =>
+            {
+                ResponseDTO _response = new ResponseDTO();
+                try
+                {
+                    Category obj = await dataConText.Categories.FirstAsync(o => o.Id == id);
+                    _response.Result = mapper.Map<CategoryDTO>(obj);
                 }
                 catch (Exception ex)
                 {
@@ -65,14 +84,14 @@ namespace Products.API.Apis
             });
 
             //GetProductsByCategory
-            app.MapGet("/category/{category}", async Task<ResponseDTO> (DataContext dataConText, int category) =>
+            app.MapGet("/products/{category}", async Task<ResponseDTO> (DataContext dataConText, IMapper mapper, int category) =>
             {
                 ResponseDTO _response = new ResponseDTO();
                 try
                 {
                     IEnumerable<Product> objList = await dataConText.Products.Where(o => o.CategoryId == category).ToListAsync();
 
-                    _response.Result = objList;
+                    _response.Result = mapper.Map<IEnumerable<ProductDTO>>(objList);
                 }
                 catch (Exception ex)
                 {
@@ -85,7 +104,7 @@ namespace Products.API.Apis
             //GetCategory
 
             //SearchProduct
-            app.MapGet("/items", async Task<ResponseDTO> (DataContext dataConText, [FromQuery] string searchTerm) =>
+            app.MapGet("/search", async Task<ResponseDTO> (DataContext dataConText, IMapper mapper, [FromQuery] string searchTerm) =>
             {
                 ResponseDTO _response = new ResponseDTO();
                 try
@@ -93,7 +112,7 @@ namespace Products.API.Apis
                     var tempKeyword = searchTerm;
                     IEnumerable<Product> objList = await dataConText.Products.Where(o => o.Model.Contains(tempKeyword)).ToListAsync();
 
-                    _response.Result = objList;
+                    _response.Result = mapper.Map<IEnumerable<ProductDTO>>(objList);
                 }
                 catch (Exception ex)
                 {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wE8+VBdq+mwsNl7iwP/M2EFFW+ZZYaRC8aVgdfjt5LJKyQJduhwcaZW0wuL5nYQAmr47DfEEZ8WTLEpN07JCSw==",
+  "dgSpecHash": "xvsrp9VF3CsjprADn1VXI3J64ef9E+f9NzswaihaRQdXZLL+Kfc7yVnY99dqsJcRLh0Fz/imW3ByESewaaezYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DungBui\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.AppHost\\MicroApp.AppHost.csproj",
+  "projectFilePath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.AppHost\\MicroApp.AppHost.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DungBui\\.nuget\\packages\\aspire.dashboard\\8.0.0-preview.2.23619.3\\aspire.dashboard.8.0.0-preview.2.23619.3.nupkg.sha512",
     "C:\\Users\\DungBui\\.nuget\\packages\\aspire.hosting\\8.0.0-preview.2.23619.3\\aspire.hosting.8.0.0-preview.2.23619.3.nupkg.sha512",
@@ -158,8 +158,8 @@
     "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.extensions.servicediscovery.abstractions\\8.0.0-preview.2.23619.3\\microsoft.extensions.servicediscovery.abstractions.8.0.0-preview.2.23619.3.nupkg.sha512",
     "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.extensions.telemetry\\8.1.0\\microsoft.extensions.telemetry.8.1.0.nupkg.sha512",
     "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.extensions.telemetry.abstractions\\8.1.0\\microsoft.extensions.telemetry.abstractions.8.1.0.nupkg.sha512",
-    "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.1.1\\microsoft.fluentui.aspnetcore.components.4.1.1.nupkg.sha512",
-    "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components.icons\\4.1.0\\microsoft.fluentui.aspnetcore.components.icons.4.1.0.nupkg.sha512",
+    "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\microsoft.fluentui.aspnetcore.components.4.3.0.nupkg.sha512",
+    "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components.icons\\4.3.0\\microsoft.fluentui.aspnetcore.components.icons.4.3.0.nupkg.sha512",
     "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.identity.client\\4.47.2\\microsoft.identity.client.4.47.2.nupkg.sha512",
     "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\2.19.3\\microsoft.identity.client.extensions.msal.2.19.3.nupkg.sha512",
     "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.0\\microsoft.identitymodel.abstractions.7.0.0.nupkg.sha512",
