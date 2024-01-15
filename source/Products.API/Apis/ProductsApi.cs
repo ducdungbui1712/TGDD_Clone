@@ -1,13 +1,7 @@
-﻿using AutoMapper;
-using Azure;
-using Humanizer;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Products.API.Data;
-using Products.API.Models;
+﻿using Microsoft.AspNetCore.Mvc;
 using Products.API.Models.DTO;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
-using static Microsoft.Extensions.Logging.EventSource.LoggingEventSource;
+using Products.API.Services;
+
 
 namespace Products.API.Apis
 {
@@ -15,111 +9,34 @@ namespace Products.API.Apis
     {
         public static RouteGroupBuilder MapProductsApi(this RouteGroupBuilder app)
         {
-            //GetProductsDTO
-            app.MapGet("/products", async Task<ResponseDTO> (DataContext dataConText, IMapper mapper) =>
+            app.MapGet("/products", async Task<ResponseDTO> (ProductService productService) =>
             {
-                ResponseDTO _response = new ResponseDTO();
-                try
-                {
-                    IEnumerable<Product> objList = await dataConText.Products.ToListAsync();
-                    _response.Result = mapper.Map<IEnumerable<ProductDTO>>(objList);
-                }
-                catch (Exception ex)
-                {
-                    _response.IsSuccess = false;
-                    _response.Message = ex.Message;
-                }
-                return _response;
+                return await productService.GetProductsAsync();
             });
 
-            //GetProductsDTOById
-            app.MapGet("/items/{id:int}", async Task<ResponseDTO> (DataContext dataConText, IMapper mapper, int id) =>
+            app.MapGet("/item/{id:int}", async Task<ResponseDTO> (ProductService productService, int id) =>
             {
-                ResponseDTO _response = new ResponseDTO();
-                try
-                {
-                    Product obj = await dataConText.Products.FirstAsync(o => o.Id == id);
-                    _response.Result = mapper.Map<ProductDTO>(obj);
-                }
-                catch (Exception ex)
-                {
-                    _response.IsSuccess = false;
-                    _response.Message = ex.Message;
-                }
-                return _response;
+                return await productService.GetProductByIdAsync(id);
             });
 
-            //GetCategoryDTO
-            app.MapGet("/category", async Task<ResponseDTO> (DataContext dataConText, IMapper mapper) =>
+            app.MapGet("/category", async (ProductService productService) =>
             {
-                ResponseDTO _response = new ResponseDTO();
-                try
-                {
-                    IEnumerable<Category> objList = await dataConText.Categories.ToListAsync();
-                    _response.Result = mapper.Map<IEnumerable<CategoryDTO>>(objList);
-                }
-                catch (Exception ex)
-                {
-                    _response.IsSuccess = false;
-                    _response.Message = ex.Message;
-                }
-                return _response;
+                return await productService.GetCategoriesAsync();
             });
 
-            //GetCategoryDTOById
-            app.MapGet("/category/{id:int}", async Task<ResponseDTO> (DataContext dataConText, IMapper mapper, int id) =>
+            app.MapGet("/category/{id:int}", async Task<ResponseDTO> (ProductService productService, int id) =>
             {
-                ResponseDTO _response = new ResponseDTO();
-                try
-                {
-                    Category obj = await dataConText.Categories.FirstAsync(o => o.Id == id);
-                    _response.Result = mapper.Map<CategoryDTO>(obj);
-                }
-                catch (Exception ex)
-                {
-                    _response.IsSuccess = false;
-                    _response.Message = ex.Message;
-                }
-                return _response;
+                return await productService.GetCategoryByIdAsync(id);
             });
 
-            //GetProductsByCategory
-            app.MapGet("/products/{category}", async Task<ResponseDTO> (DataContext dataConText, IMapper mapper, int category) =>
+            app.MapGet("/products/{category}", async (ProductService productService, int category) =>
             {
-                ResponseDTO _response = new ResponseDTO();
-                try
-                {
-                    IEnumerable<Product> objList = await dataConText.Products.Where(o => o.CategoryId == category).ToListAsync();
-
-                    _response.Result = mapper.Map<IEnumerable<ProductDTO>>(objList);
-                }
-                catch (Exception ex)
-                {
-                    _response.IsSuccess = false;
-                    _response.Message = ex.Message;
-                }
-                return _response;
+                return await productService.GetProductsByCategoryAsync(category);
             });
 
-            //GetCategory
-
-            //SearchProduct
-            app.MapGet("/search", async Task<ResponseDTO> (DataContext dataConText, IMapper mapper, [FromQuery] string searchTerm) =>
+            app.MapGet("/search", async (ProductService productService, [FromQuery] string searchTerm) =>
             {
-                ResponseDTO _response = new ResponseDTO();
-                try
-                {
-                    var tempKeyword = searchTerm;
-                    IEnumerable<Product> objList = await dataConText.Products.Where(o => o.Model.Contains(tempKeyword)).ToListAsync();
-
-                    _response.Result = mapper.Map<IEnumerable<ProductDTO>>(objList);
-                }
-                catch (Exception ex)
-                {
-                    _response.IsSuccess = false;
-                    _response.Message = ex.Message;
-                }
-                return _response;
+                return await productService.SearchProductsAsync(searchTerm);
             });
 
             return app;

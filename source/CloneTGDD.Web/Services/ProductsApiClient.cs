@@ -15,7 +15,7 @@ namespace CloneTGDD.Web.Services
 
         public async Task<ResponseDTO> GetProductsDTOById(int id)
         {
-            var uri = $"{remoteServiceBaseUrl}/items/{id}";
+            var uri = $"{remoteServiceBaseUrl}/item/{id}";
             return await client.GetFromJsonAsync<ResponseDTO>(uri) ?? throw new Exception("The API response was null.");
         }
 

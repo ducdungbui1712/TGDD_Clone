@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Products.API.Apis;
 using Products.API.Data;
 using Products.API.Extension;
+using Products.API.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +18,10 @@ builder.Services.AddDbContext<DataContext>(options => {
 IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
 builder.Services.AddSingleton(mapper);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+// Services
+builder.Services.AddScoped<ProductService>();
+
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
