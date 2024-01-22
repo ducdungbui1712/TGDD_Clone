@@ -2361,7 +2361,7 @@
           "buildTransitive/net6.0/Microsoft.Extensions.Telemetry.Abstractions.targets": {}
         }
       },
-      "Microsoft.FluentUI.AspNetCore.Components/4.3.0": {
+      "Microsoft.FluentUI.AspNetCore.Components/4.3.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "8.0.0",
@@ -2386,7 +2386,7 @@
           "buildMultiTargeting/Microsoft.FluentUI.AspNetCore.Components.props": {}
         }
       },
-      "Microsoft.FluentUI.AspNetCore.Components.Icons/4.3.0": {
+      "Microsoft.FluentUI.AspNetCore.Components.Icons/4.3.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.FluentUI.AspNetCore.Components": "4.2.1"
@@ -7707,10 +7707,10 @@
         "microsoft.extensions.telemetry.abstractions.nuspec"
       ]
     },
-    "Microsoft.FluentUI.AspNetCore.Components/4.3.0": {
-      "sha512": "JfhaDAysYCKWSm/HPS20Ks8+7QIkfmqL70Php3O7mjkYM0dFW58FMO33CMSvXbR6MEG/lJEH5hBxQvj5/NNl8w==",
+    "Microsoft.FluentUI.AspNetCore.Components/4.3.1": {
+      "sha512": "iVwX99aYrD+TuH2JliC2m7IMSUKPcCfi4EthfAO12H/0j2K0xQARK1yPs9JHyruX9S4GETFER4BJVKmxvFBgZQ==",
       "type": "package",
-      "path": "microsoft.fluentui.aspnetcore.components/4.3.0",
+      "path": "microsoft.fluentui.aspnetcore.components/4.3.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7722,7 +7722,7 @@
         "icon.png",
         "lib/net8.0/Microsoft.FluentUI.AspNetCore.Components.dll",
         "lib/net8.0/Microsoft.FluentUI.AspNetCore.Components.xml",
-        "microsoft.fluentui.aspnetcore.components.4.3.0.nupkg.sha512",
+        "microsoft.fluentui.aspnetcore.components.4.3.1.nupkg.sha512",
         "microsoft.fluentui.aspnetcore.components.nuspec",
         "staticwebassets/Components/Anchor/FluentAnchor.razor.js",
         "staticwebassets/Components/Button/FluentButton.razor.js",
@@ -7751,10 +7751,10 @@
         "staticwebassets/js/loading-theme.js"
       ]
     },
-    "Microsoft.FluentUI.AspNetCore.Components.Icons/4.3.0": {
-      "sha512": "9GbFyTSqHEE7JJN9d0LGFFN4YKRsPvyz+/IjSz4l5J14HnIyNkEl2ew3gSD6QgPwzGdTtgahf2BZO7xXXUiRbw==",
+    "Microsoft.FluentUI.AspNetCore.Components.Icons/4.3.1": {
+      "sha512": "pcMKGw2703fpAlDsUMonr2e2VY+P9nItEQV40OiFWimEdBhKj1+rPlcxGw0wHrU6K1Ynk9FBf3MMbehHzeG6Vg==",
       "type": "package",
-      "path": "microsoft.fluentui.aspnetcore.components.icons/4.3.0",
+      "path": "microsoft.fluentui.aspnetcore.components.icons/4.3.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7762,7 +7762,7 @@
         "icon.png",
         "lib/net8.0/Microsoft.FluentUI.AspNetCore.Components.Icons.dll",
         "lib/net8.0/Microsoft.FluentUI.AspNetCore.Components.Icons.xml",
-        "microsoft.fluentui.aspnetcore.components.icons.4.3.0.nupkg.sha512",
+        "microsoft.fluentui.aspnetcore.components.icons.4.3.1.nupkg.sha512",
         "microsoft.fluentui.aspnetcore.components.icons.nuspec"
       ]
     },
@@ -10700,26 +10700,26 @@
     "net8.0": [
       "Aspire.StackExchange.Redis.OutputCaching >= 8.0.0-preview.2.23619.3",
       "MicroApp.ServiceDefaults >= 1.0.0",
-      "Microsoft.FluentUI.AspNetCore.Components >= 4.3.0",
-      "Microsoft.FluentUI.AspNetCore.Components.Icons >= 4.3.0",
+      "Microsoft.FluentUI.AspNetCore.Components >= 4.3.1",
+      "Microsoft.FluentUI.AspNetCore.Components.Icons >= 4.3.1",
       "Newtonsoft.Json >= 13.0.3",
       "Products.API >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DungBui\\.nuget\\packages\\": {}
+    "C:\\Users\\tuivo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj",
+      "projectUniqueName": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj",
       "projectName": "CloneTGDD.Web",
-      "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj",
-      "packagesPath": "C:\\Users\\DungBui\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\obj\\",
+      "projectPath": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj",
+      "packagesPath": "C:\\Users\\tuivo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DungBui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tuivo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10728,18 +10728,17 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet8/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj": {
-              "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj"
+            "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj": {
+              "projectPath": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj"
             },
-            "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj": {
-              "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj"
+            "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj": {
+              "projectPath": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj"
             }
           }
         }
@@ -10765,11 +10764,11 @@
           },
           "Microsoft.FluentUI.AspNetCore.Components": {
             "target": "Package",
-            "version": "[4.3.0, )"
+            "version": "[4.3.1, )"
           },
           "Microsoft.FluentUI.AspNetCore.Components.Icons": {
             "target": "Package",
-            "version": "[4.3.0, )"
+            "version": "[4.3.1, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
@@ -10795,7 +10794,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

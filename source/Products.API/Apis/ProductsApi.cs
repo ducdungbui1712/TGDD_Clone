@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Products.API.Models.DTO;
-using Products.API.Services;
+using Products.API.Services.IServices;
 
 
 namespace Products.API.Apis
@@ -9,34 +9,34 @@ namespace Products.API.Apis
     {
         public static RouteGroupBuilder MapProductsApi(this RouteGroupBuilder app)
         {
-            app.MapGet("/products", async Task<ResponseDTO> (ProductService productService) =>
+            app.MapGet("/products", async (IProductService _productService) =>
             {
-                return await productService.GetProductsAsync();
+                return await _productService.GetProductsAsync();
             });
 
-            app.MapGet("/item/{id:int}", async Task<ResponseDTO> (ProductService productService, int id) =>
+            app.MapGet("/item/{id:int}", async (IProductService _productService, int id) =>
             {
-                return await productService.GetProductByIdAsync(id);
+                return await _productService.GetProductByIdAsync(id);
             });
 
-            app.MapGet("/category", async (ProductService productService) =>
+            app.MapGet("/category", async (IProductService _productService) =>
             {
-                return await productService.GetCategoriesAsync();
+                return await _productService.GetCategoriesAsync();
             });
 
-            app.MapGet("/category/{id:int}", async Task<ResponseDTO> (ProductService productService, int id) =>
+            app.MapGet("/category/{id:int}", async (IProductService _productService, int id) =>
             {
-                return await productService.GetCategoryByIdAsync(id);
+                return await _productService.GetCategoryByIdAsync(id);
             });
 
-            app.MapGet("/products/{category}", async (ProductService productService, int category) =>
+            app.MapGet("/products/{category}", async (IProductService _productService, int category) =>
             {
-                return await productService.GetProductsByCategoryAsync(category);
+                return await _productService.GetProductsByCategoryAsync(category);
             });
 
-            app.MapGet("/search", async (ProductService productService, [FromQuery] string searchTerm) =>
+            app.MapGet("/search", async (IProductService _productService, [FromQuery] string searchTerm) =>
             {
-                return await productService.SearchProductsAsync(searchTerm);
+                return await _productService.SearchProductsAsync(searchTerm);
             });
 
             return app;

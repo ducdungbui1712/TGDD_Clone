@@ -167,5 +167,5 @@
     }
   },
   "type": "object",
-  "SourceSegments": "C:\\Users\\DungBui\\.nuget\\packages\\aspire.stackexchange.redis\\8.0.0-preview.2.23619.3\\ConfigurationSchema.json;C:\\Users\\DungBui\\.nuget\\packages\\aspire.stackexchange.redis.outputcaching\\8.0.0-preview.2.23619.3\\ConfigurationSchema.json"
+  "SourceSegments": "C:\\Users\\tuivo\\.nuget\\packages\\aspire.stackexchange.redis\\8.0.0-preview.2.23619.3\\ConfigurationSchema.json;C:\\Users\\tuivo\\.nuget\\packages\\aspire.stackexchange.redis.outputcaching\\8.0.0-preview.2.23619.3\\ConfigurationSchema.json"
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MicroApp.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0195cd36cc420885b69f2b29515e0459db144ab1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53a72d5bd044366db59c71237e30350b96c0e8fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("MicroApp.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MicroApp.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

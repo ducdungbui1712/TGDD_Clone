@@ -5,20 +5,7 @@ using Microsoft.FluentUI.AspNetCore.Components;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.AddServiceDefaults();
-
-builder.Services.AddRazorComponents().AddInteractiveServerComponents();
-
-builder.AddApplicationServices();
-builder.AddRedisOutputCache("cache");
-
-// Add services to the container.
-builder.Services.AddRazorComponents()
-    .AddInteractiveServerComponents();
-
-builder.Services.AddHttpClient();
-builder.Services.AddFluentUIComponents();
-
-builder.Services.AddServerSideBlazor().AddCircuitOptions(options => { options.DetailedErrors = true; });
+builder.AddApplicationExtensionServices();
 
 var app = builder.Build();
 

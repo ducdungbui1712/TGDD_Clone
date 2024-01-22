@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj": {}
+    "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj": {
+    "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj",
+        "projectUniqueName": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj",
         "projectName": "MicroApp.ServiceDefaults",
-        "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj",
-        "packagesPath": "C:\\Users\\DungBui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\obj\\",
+        "projectPath": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj",
+        "packagesPath": "C:\\Users\\tuivo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DungBui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tuivo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -23,8 +23,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet8/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -99,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

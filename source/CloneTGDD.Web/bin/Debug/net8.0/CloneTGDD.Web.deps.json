@@ -10,8 +10,8 @@
         "dependencies": {
           "Aspire.StackExchange.Redis.OutputCaching": "8.0.0-preview.2.23619.3",
           "MicroApp.ServiceDefaults": "1.0.0",
-          "Microsoft.FluentUI.AspNetCore.Components": "4.3.0",
-          "Microsoft.FluentUI.AspNetCore.Components.Icons": "4.3.0",
+          "Microsoft.FluentUI.AspNetCore.Components": "4.3.1",
+          "Microsoft.FluentUI.AspNetCore.Components.Icons": "4.3.1",
           "Newtonsoft.Json": "13.0.3",
           "Products.API": "1.0.0"
         },
@@ -1679,7 +1679,7 @@
           }
         }
       },
-      "Microsoft.FluentUI.AspNetCore.Components/4.3.0": {
+      "Microsoft.FluentUI.AspNetCore.Components/4.3.1": {
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "8.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
@@ -1688,19 +1688,19 @@
         },
         "runtime": {
           "lib/net8.0/Microsoft.FluentUI.AspNetCore.Components.dll": {
-            "assemblyVersion": "4.3.0.24008",
-            "fileVersion": "4.3.0.24008"
+            "assemblyVersion": "4.3.1.24012",
+            "fileVersion": "4.3.1.24012"
           }
         }
       },
-      "Microsoft.FluentUI.AspNetCore.Components.Icons/4.3.0": {
+      "Microsoft.FluentUI.AspNetCore.Components.Icons/4.3.1": {
         "dependencies": {
-          "Microsoft.FluentUI.AspNetCore.Components": "4.3.0"
+          "Microsoft.FluentUI.AspNetCore.Components": "4.3.1"
         },
         "runtime": {
           "lib/net8.0/Microsoft.FluentUI.AspNetCore.Components.Icons.dll": {
-            "assemblyVersion": "4.3.0.24008",
-            "fileVersion": "4.3.0.24008"
+            "assemblyVersion": "4.3.1.24012",
+            "fileVersion": "4.3.1.24012"
           }
         }
       },
@@ -2503,12 +2503,6 @@
       "System.Text.Json/8.0.1": {
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0"
-        },
-        "runtime": {
-          "lib/net8.0/System.Text.Json.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.123.58001"
-          }
         }
       },
       "System.Threading.Channels/7.0.0": {},
@@ -3489,19 +3483,19 @@
       "path": "microsoft.extensions.telemetry.abstractions/8.1.0",
       "hashPath": "microsoft.extensions.telemetry.abstractions.8.1.0.nupkg.sha512"
     },
-    "Microsoft.FluentUI.AspNetCore.Components/4.3.0": {
+    "Microsoft.FluentUI.AspNetCore.Components/4.3.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-JfhaDAysYCKWSm/HPS20Ks8+7QIkfmqL70Php3O7mjkYM0dFW58FMO33CMSvXbR6MEG/lJEH5hBxQvj5/NNl8w==",
-      "path": "microsoft.fluentui.aspnetcore.components/4.3.0",
-      "hashPath": "microsoft.fluentui.aspnetcore.components.4.3.0.nupkg.sha512"
+      "sha512": "sha512-iVwX99aYrD+TuH2JliC2m7IMSUKPcCfi4EthfAO12H/0j2K0xQARK1yPs9JHyruX9S4GETFER4BJVKmxvFBgZQ==",
+      "path": "microsoft.fluentui.aspnetcore.components/4.3.1",
+      "hashPath": "microsoft.fluentui.aspnetcore.components.4.3.1.nupkg.sha512"
     },
-    "Microsoft.FluentUI.AspNetCore.Components.Icons/4.3.0": {
+    "Microsoft.FluentUI.AspNetCore.Components.Icons/4.3.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9GbFyTSqHEE7JJN9d0LGFFN4YKRsPvyz+/IjSz4l5J14HnIyNkEl2ew3gSD6QgPwzGdTtgahf2BZO7xXXUiRbw==",
-      "path": "microsoft.fluentui.aspnetcore.components.icons/4.3.0",
-      "hashPath": "microsoft.fluentui.aspnetcore.components.icons.4.3.0.nupkg.sha512"
+      "sha512": "sha512-pcMKGw2703fpAlDsUMonr2e2VY+P9nItEQV40OiFWimEdBhKj1+rPlcxGw0wHrU6K1Ynk9FBf3MMbehHzeG6Vg==",
+      "path": "microsoft.fluentui.aspnetcore.components.icons/4.3.1",
+      "hashPath": "microsoft.fluentui.aspnetcore.components.icons.4.3.1.nupkg.sha512"
     },
     "Microsoft.Identity.Client/4.47.2": {
       "type": "package",

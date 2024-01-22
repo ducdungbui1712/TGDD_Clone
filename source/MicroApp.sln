@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroApp.AppHost", "MicroAp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroApp.ServiceDefaults", "MicroApp.ServiceDefaults\MicroApp.ServiceDefaults.csproj", "{8DA40A0E-CD43-420E-816D-0450069CA042}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserAuth.API", "UserAuth.API\UserAuth.API.csproj", "{7E8D343F-0268-4757-9C3F-05B9B66E820F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8DA40A0E-CD43-420E-816D-0450069CA042}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DA40A0E-CD43-420E-816D-0450069CA042}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DA40A0E-CD43-420E-816D-0450069CA042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E8D343F-0268-4757-9C3F-05B9B66E820F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E8D343F-0268-4757-9C3F-05B9B66E820F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E8D343F-0268-4757-9C3F-05B9B66E820F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E8D343F-0268-4757-9C3F-05B9B66E820F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

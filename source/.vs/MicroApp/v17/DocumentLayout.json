@@ -1,10 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\",
+  "WorkspaceRootPath": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72492C27-4F8D-49E6-BE1D-06B9325A8E69}|Products.API\\Products.API.csproj|c:\\users\\dungbui\\desktop\\new folder\\tgdd_clone_dotnet_aspire\\source\\products.api\\models\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72492C27-4F8D-49E6-BE1D-06B9325A8E69}|Products.API\\Products.API.csproj|solutionrelative:products.api\\models\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E8D343F-0268-4757-9C3F-05B9B66E820F}|UserAuth.API\\UserAuth.API.csproj|c:\\users\\tuivo\\desktop\\tgdd_clone_dotnet_aspire\\source\\userauth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E8D343F-0268-4757-9C3F-05B9B66E820F}|UserAuth.API\\UserAuth.API.csproj|solutionrelative:userauth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E8D343F-0268-4757-9C3F-05B9B66E820F}|UserAuth.API\\UserAuth.API.csproj|c:\\users\\tuivo\\desktop\\tgdd_clone_dotnet_aspire\\source\\userauth.api\\extension\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E8D343F-0268-4757-9C3F-05B9B66E820F}|UserAuth.API\\UserAuth.API.csproj|solutionrelative:userauth.api\\extension\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E8D343F-0268-4757-9C3F-05B9B66E820F}|UserAuth.API\\UserAuth.API.csproj|c:\\users\\tuivo\\desktop\\tgdd_clone_dotnet_aspire\\source\\userauth.api\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E8D343F-0268-4757-9C3F-05B9B66E820F}|UserAuth.API\\UserAuth.API.csproj|solutionrelative:userauth.api\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E8D343F-0268-4757-9C3F-05B9B66E820F}|UserAuth.API\\UserAuth.API.csproj|c:\\users\\tuivo\\desktop\\tgdd_clone_dotnet_aspire\\source\\userauth.api\\apis\\userauthapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E8D343F-0268-4757-9C3F-05B9B66E820F}|UserAuth.API\\UserAuth.API.csproj|solutionrelative:userauth.api\\apis\\userauthapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E8D343F-0268-4757-9C3F-05B9B66E820F}|UserAuth.API\\UserAuth.API.csproj|c:\\users\\tuivo\\desktop\\tgdd_clone_dotnet_aspire\\source\\userauth.api\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E8D343F-0268-4757-9C3F-05B9B66E820F}|UserAuth.API\\UserAuth.API.csproj|solutionrelative:userauth.api\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E8D343F-0268-4757-9C3F-05B9B66E820F}|UserAuth.API\\UserAuth.API.csproj|c:\\users\\tuivo\\desktop\\tgdd_clone_dotnet_aspire\\source\\userauth.api\\userauth.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7E8D343F-0268-4757-9C3F-05B9B66E820F}|UserAuth.API\\UserAuth.API.csproj|solutionrelative:userauth.api\\userauth.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72492C27-4F8D-49E6-BE1D-06B9325A8E69}|Products.API\\Products.API.csproj|c:\\users\\tuivo\\desktop\\tgdd_clone_dotnet_aspire\\source\\products.api\\extension\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72492C27-4F8D-49E6-BE1D-06B9325A8E69}|Products.API\\Products.API.csproj|solutionrelative:products.api\\extension\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E8D343F-0268-4757-9C3F-05B9B66E820F}|UserAuth.API\\UserAuth.API.csproj|c:\\users\\tuivo\\desktop\\tgdd_clone_dotnet_aspire\\source\\userauth.api\\services\\iservices\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E8D343F-0268-4757-9C3F-05B9B66E820F}|UserAuth.API\\UserAuth.API.csproj|solutionrelative:userauth.api\\services\\iservices\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C339F1BA-76D9-469C-AE3F-99B2FB46A1D0}|CloneTGDD.Web\\CloneTGDD.Web.csproj|c:\\users\\tuivo\\desktop\\tgdd_clone_dotnet_aspire\\source\\clonetgdd.web\\services\\userauthapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C339F1BA-76D9-469C-AE3F-99B2FB46A1D0}|CloneTGDD.Web\\CloneTGDD.Web.csproj|solutionrelative:clonetgdd.web\\services\\userauthapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E8D343F-0268-4757-9C3F-05B9B66E820F}|UserAuth.API\\UserAuth.API.csproj|c:\\users\\tuivo\\desktop\\tgdd_clone_dotnet_aspire\\source\\userauth.api\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E8D343F-0268-4757-9C3F-05B9B66E820F}|UserAuth.API\\UserAuth.API.csproj|solutionrelative:userauth.api\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E8D343F-0268-4757-9C3F-05B9B66E820F}|UserAuth.API\\UserAuth.API.csproj|c:\\users\\tuivo\\desktop\\tgdd_clone_dotnet_aspire\\source\\userauth.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7E8D343F-0268-4757-9C3F-05B9B66E820F}|UserAuth.API\\UserAuth.API.csproj|solutionrelative:userauth.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C339F1BA-76D9-469C-AE3F-99B2FB46A1D0}|CloneTGDD.Web\\CloneTGDD.Web.csproj|c:\\users\\tuivo\\desktop\\tgdd_clone_dotnet_aspire\\source\\clonetgdd.web\\services\\productsapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C339F1BA-76D9-469C-AE3F-99B2FB46A1D0}|CloneTGDD.Web\\CloneTGDD.Web.csproj|solutionrelative:clonetgdd.web\\services\\productsapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72492C27-4F8D-49E6-BE1D-06B9325A8E69}|Products.API\\Products.API.csproj|c:\\users\\tuivo\\desktop\\tgdd_clone_dotnet_aspire\\source\\products.api\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72492C27-4F8D-49E6-BE1D-06B9325A8E69}|Products.API\\Products.API.csproj|solutionrelative:products.api\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +62,166 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductDTO.cs",
-              "DocumentMoniker": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Models\\DTO\\ProductDTO.cs",
-              "RelativeDocumentMoniker": "Products.API\\Models\\DTO\\ProductDTO.cs",
-              "ToolTip": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Models\\DTO\\ProductDTO.cs",
-              "RelativeToolTip": "Products.API\\Models\\DTO\\ProductDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "UserAuthApi.cs",
+              "DocumentMoniker": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\UserAuth.API\\Apis\\UserAuthApi.cs",
+              "RelativeDocumentMoniker": "UserAuth.API\\Apis\\UserAuthApi.cs",
+              "ToolTip": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\UserAuth.API\\Apis\\UserAuthApi.cs",
+              "RelativeToolTip": "UserAuth.API\\Apis\\UserAuthApi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-12T09:12:16.73Z",
+              "WhenOpened": "2024-01-18T12:04:29.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Extension.cs",
+              "DocumentMoniker": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\UserAuth.API\\Extension\\Extension.cs",
+              "RelativeDocumentMoniker": "UserAuth.API\\Extension\\Extension.cs",
+              "ToolTip": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\UserAuth.API\\Extension\\Extension.cs",
+              "RelativeToolTip": "UserAuth.API\\Extension\\Extension.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAwwBAAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-18T10:28:14.71Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\UserAuth.API\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "UserAuth.API\\Services\\LoginService.cs",
+              "ToolTip": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\UserAuth.API\\Services\\LoginService.cs",
+              "RelativeToolTip": "UserAuth.API\\Services\\LoginService.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowA4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-18T11:05:57.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\UserAuth.API\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "UserAuth.API\\Models\\RegisterModel.cs",
+              "ToolTip": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\UserAuth.API\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "UserAuth.API\\Models\\RegisterModel.cs",
+              "ViewState": "AQIAAAQAAAAAZmZmZuYcwBAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-18T10:19:58.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\UserAuth.API\\Services\\IServices\\ILoginService.cs",
+              "RelativeDocumentMoniker": "UserAuth.API\\Services\\IServices\\ILoginService.cs",
+              "ToolTip": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\UserAuth.API\\Services\\IServices\\ILoginService.cs",
+              "RelativeToolTip": "UserAuth.API\\Services\\IServices\\ILoginService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-18T12:07:52.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserAuth.API.csproj",
+              "DocumentMoniker": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\UserAuth.API\\UserAuth.API.csproj",
+              "RelativeDocumentMoniker": "UserAuth.API\\UserAuth.API.csproj",
+              "ToolTip": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\UserAuth.API\\UserAuth.API.csproj",
+              "RelativeToolTip": "UserAuth.API\\UserAuth.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-01-18T16:20:36.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\UserAuth.API\\Program.cs",
+              "RelativeDocumentMoniker": "UserAuth.API\\Program.cs",
+              "ToolTip": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\UserAuth.API\\Program.cs",
+              "RelativeToolTip": "UserAuth.API\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-18T16:44:18.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Extension.cs",
+              "DocumentMoniker": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Extension\\Extension.cs",
+              "RelativeDocumentMoniker": "Products.API\\Extension\\Extension.cs",
+              "ToolTip": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Extension\\Extension.cs",
+              "RelativeToolTip": "Products.API\\Extension\\Extension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAwwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-18T16:37:10.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserAuthApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\Services\\UserAuthApiClient.cs",
+              "RelativeDocumentMoniker": "CloneTGDD.Web\\Services\\UserAuthApiClient.cs",
+              "ToolTip": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\Services\\UserAuthApiClient.cs",
+              "RelativeToolTip": "CloneTGDD.Web\\Services\\UserAuthApiClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-18T11:01:34.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\UserAuth.API\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "UserAuth.API\\Services\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\UserAuth.API\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "UserAuth.API\\Services\\AuthenticationService.cs",
+              "ViewState": "AQIAAAoAAACAmZmZmVkqwB8AAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-18T10:57:11.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\UserAuth.API\\appsettings.json",
+              "RelativeDocumentMoniker": "UserAuth.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\UserAuth.API\\appsettings.json",
+              "RelativeToolTip": "UserAuth.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-01-18T10:52:12.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductsApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\Services\\ProductsApiClient.cs",
+              "RelativeDocumentMoniker": "CloneTGDD.Web\\Services\\ProductsApiClient.cs",
+              "ToolTip": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\Services\\ProductsApiClient.cs",
+              "RelativeToolTip": "CloneTGDD.Web\\Services\\ProductsApiClient.cs",
+              "ViewState": "AQIAAAIAAACAMzMzMzP7vyoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-18T10:58:51.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Products.API\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Services\\ProductService.cs",
+              "RelativeToolTip": "Products.API\\Services\\ProductService.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAEAjwJEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-18T11:02:16.133Z"
             }
           ]
         }

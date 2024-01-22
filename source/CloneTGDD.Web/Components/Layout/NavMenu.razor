@@ -45,6 +45,9 @@
                 <button class="btn btn-nav shadow-none border-0" type="submit">
                     <i class="bi bi-cart"></i>
                 </button>
+                <button class="btn btn-nav shadow-none border-0" type="submit" @onclick="NavigateToRegisterPage">
+                    <i class="bi bi-person-plus"></i>
+                </button>
             </div>
         </div>
     </div>
@@ -109,6 +112,11 @@
     private void NavigateToHomePage()
     {
         NavigationManager.NavigateTo($"/", true);
+    }
+
+    private void NavigateToRegisterPage()
+    {
+        NavigationManager.NavigateTo($"/register", true);
     }
 
     private void NavigateToDetailPage(int id)

@@ -3,29 +3,26 @@ using Microsoft.EntityFrameworkCore;
 using Products.API.Data;
 using Products.API.Models;
 using Products.API.Models.DTO;
+using Products.API.Services.IServices;
 
 namespace Products.API.Services
 {
-    public class ProductService
+    public class ProductService(
+        DataContext dataContext,
+        IMapper mapper
+        )
+        : IProductService
     {
-        private readonly DataContext _dataContext;
-        private readonly IMapper _mapper;
-
-        public ProductService(DataContext dataContext, IMapper mapper)
-        {
-            _dataContext = dataContext;
-            _mapper = mapper;
-        }
 
         public async Task<ResponseDTO> GetProductsAsync()
         {
             try
             {
-                IEnumerable<Product> products = await _dataContext.Products.ToListAsync();
+                IEnumerable<Product> products = await dataContext.Products.ToListAsync();
                 return new ResponseDTO
                 {
                     IsSuccess = true,
-                    Result = _mapper.Map<IEnumerable<ProductDTO>>(products)
+                    Result = mapper.Map<IEnumerable<ProductDTO>>(products)
                 };
             }
             catch (Exception ex)
@@ -42,7 +39,7 @@ namespace Products.API.Services
         {
             try
             {
-                Product product = await _dataContext.Products.FindAsync(id);
+                Product product = await dataContext.Products.FindAsync(id);
                 if (product == null)
                 {
                     return new ResponseDTO
@@ -55,7 +52,7 @@ namespace Products.API.Services
                 return new ResponseDTO
                 {
                     IsSuccess = true,
-                    Result = _mapper.Map<ProductDTO>(product)
+                    Result = mapper.Map<ProductDTO>(product)
                 };
             }
             catch (Exception ex)
@@ -72,11 +69,11 @@ namespace Products.API.Services
         {
             try
             {
-                IEnumerable<Category> categories = await _dataContext.Categories.ToListAsync();
+                IEnumerable<Category> categories = await dataContext.Categories.ToListAsync();
                 return new ResponseDTO
                 {
                     IsSuccess = true,
-                    Result = _mapper.Map<IEnumerable<CategoryDTO>>(categories)
+                    Result = mapper.Map<IEnumerable<CategoryDTO>>(categories)
                 };
             }
             catch (Exception ex)
@@ -93,12 +90,12 @@ namespace Products.API.Services
         {
             try
             {
-                Category category = await _dataContext.Categories.FirstAsync(o => o.Id == categoryId);
+                Category category = await dataContext.Categories.FirstAsync(o => o.Id == categoryId);
 
                 return new ResponseDTO
                 {
                     IsSuccess = true,
-                    Result = _mapper.Map<CategoryDTO>(category)
+                    Result = mapper.Map<CategoryDTO>(category)
                 };
             }
             catch (Exception ex)
@@ -115,14 +112,14 @@ namespace Products.API.Services
         {
             try
             {
-                IEnumerable<Product> products = await _dataContext.Products
+                IEnumerable<Product> products = await dataContext.Products
                     .Where(p => p.CategoryId == categoryId)
                     .ToListAsync();
 
                 return new ResponseDTO
                 {
                     IsSuccess = true,
-                    Result = _mapper.Map<IEnumerable<ProductDTO>>(products)
+                    Result = mapper.Map<IEnumerable<ProductDTO>>(products)
                 };
             }
             catch (Exception ex)
@@ -139,14 +136,14 @@ namespace Products.API.Services
         {
             try
             {
-                IEnumerable<Product> products = await _dataContext.Products
+                IEnumerable<Product> products = await dataContext.Products
                     .Where(p => p.Model.Contains(searchTerm) || p.Description.Contains(searchTerm))
                     .ToListAsync();
 
                 return new ResponseDTO
                 {
                     IsSuccess = true,
-                    Result = _mapper.Map<IEnumerable<ProductDTO>>(products)
+                    Result = mapper.Map<IEnumerable<ProductDTO>>(products)
                 };
             }
             catch (Exception ex)

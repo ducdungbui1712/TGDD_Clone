@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CloneTGDD.Web\CloneTGDD.Web.csproj" />
     <ProjectReference Include="..\Products.API\Products.API.csproj" />
+    <ProjectReference Include="..\UserAuth.API\UserAuth.API.csproj" />
   </ItemGroup>
 
 </Project>

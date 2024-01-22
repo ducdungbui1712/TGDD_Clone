@@ -1,6 +1,4 @@
-/*
-
-.carousel-control-prev, .carousel-control-next {
+.carousel-control-prev[b-n1yal11hkw], .carousel-control-next[b-n1yal11hkw] {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +13,6 @@
     cursor: pointer;
 }
 
-.carousel-indicators li {
+.carousel-indicators li[b-n1yal11hkw] {
     background-color: #007bff;
 }
-*/

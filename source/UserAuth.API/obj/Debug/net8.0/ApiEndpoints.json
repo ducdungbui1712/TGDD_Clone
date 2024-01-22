@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "UserAuth.API.Apis.UserAuthApi\u002B\u003C\u003Ec",
+    "Method": "\u003CMapProductsApi\u003Eb__0_1",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginModel",
+        "Type": "UserAuth.API.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UserAuth.API.Models.DTO.ResponseDTO",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "UserAuth.API.Apis.UserAuthApi\u002B\u003C\u003Ec",
+    "Method": "\u003CMapProductsApi\u003Eb__0_0",
+    "RelativePath": "api/auth/register",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerModel",
+        "Type": "UserAuth.API.Models.DTO.RegisterModelDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UserAuth.API.Models.DTO.ResponseDTO",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

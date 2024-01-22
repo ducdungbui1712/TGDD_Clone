@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj": {}
+    "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj": {
+    "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj",
+        "projectUniqueName": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj",
         "projectName": "CloneTGDD.Web",
-        "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj",
-        "packagesPath": "C:\\Users\\DungBui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\obj\\",
+        "projectPath": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\CloneTGDD.Web.csproj",
+        "packagesPath": "C:\\Users\\tuivo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DungBui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tuivo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -23,18 +23,17 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet8/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj": {
-                "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj"
+              "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj": {
+                "projectPath": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj"
               },
-              "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj": {
-                "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj"
+              "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj": {
+                "projectPath": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj"
               }
             }
           }
@@ -60,11 +59,11 @@
             },
             "Microsoft.FluentUI.AspNetCore.Components": {
               "target": "Package",
-              "version": "[4.3.0, )"
+              "version": "[4.3.1, )"
             },
             "Microsoft.FluentUI.AspNetCore.Components.Icons": {
               "target": "Package",
-              "version": "[4.3.0, )"
+              "version": "[4.3.1, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -90,21 +89,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj": {
+    "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj",
+        "projectUniqueName": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj",
         "projectName": "MicroApp.ServiceDefaults",
-        "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj",
-        "packagesPath": "C:\\Users\\DungBui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\obj\\",
+        "projectPath": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj",
+        "packagesPath": "C:\\Users\\tuivo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DungBui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tuivo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -113,8 +112,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet8/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -189,21 +187,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj": {
+    "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj",
+        "projectUniqueName": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj",
         "projectName": "Products.API",
-        "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj",
-        "packagesPath": "C:\\Users\\DungBui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\obj\\",
+        "projectPath": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj",
+        "packagesPath": "C:\\Users\\tuivo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DungBui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tuivo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -212,15 +210,14 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet8/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj": {
-                "projectPath": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj"
+              "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj": {
+                "projectPath": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\MicroApp.ServiceDefaults\\MicroApp.ServiceDefaults.csproj"
               }
             }
           }
@@ -300,7 +297,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

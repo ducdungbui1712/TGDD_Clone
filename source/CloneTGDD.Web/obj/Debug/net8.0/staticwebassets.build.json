@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "Pb+iZjHtYH4B8SPUSt7oeeh8O/kyl83A1EPMpEI5Gkk=",
+  "Hash": "8LvFeLxkRlsbUwUfo6UVxiIjdepjXeuESAf+4GCSl4w=",
   "Source": "CloneTGDD.Web",
   "BasePath": "_content/CloneTGDD.Web",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj",
+      "Identity": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\Products.API\\Products.API.csproj",
       "Version": 2,
       "Source": "Products.API",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -22,17 +22,17 @@
     {
       "Name": "CloneTGDD.Web\\wwwroot",
       "Source": "CloneTGDD.Web",
-      "ContentRoot": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\wwwroot\\",
       "BasePath": "_content/CloneTGDD.Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\Anchor\\FluentAnchor.razor.js",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\Anchor\\FluentAnchor.razor.js",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "Components/Anchor/FluentAnchor.razor.js",
       "AssetKind": "All",
@@ -45,13 +45,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\Anchor\\FluentAnchor.razor.js"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\Anchor\\FluentAnchor.razor.js"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\Button\\FluentButton.razor.js",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\Button\\FluentButton.razor.js",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "Components/Button/FluentButton.razor.js",
       "AssetKind": "All",
@@ -64,13 +64,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\Button\\FluentButton.razor.js"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\Button\\FluentButton.razor.js"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\Checkbox\\FluentCheckbox.razor.js",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\Checkbox\\FluentCheckbox.razor.js",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "Components/Checkbox/FluentCheckbox.razor.js",
       "AssetKind": "All",
@@ -83,13 +83,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\Checkbox\\FluentCheckbox.razor.js"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\Checkbox\\FluentCheckbox.razor.js"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\DataGrid\\FluentDataGrid.razor.js",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\DataGrid\\FluentDataGrid.razor.js",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "Components/DataGrid/FluentDataGrid.razor.js",
       "AssetKind": "All",
@@ -102,13 +102,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\DataGrid\\FluentDataGrid.razor.js"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\DataGrid\\FluentDataGrid.razor.js"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\DesignSystemProvider\\FluentDesignTheme.razor.js",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\DesignSystemProvider\\FluentDesignTheme.razor.js",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "Components/DesignSystemProvider/FluentDesignTheme.razor.js",
       "AssetKind": "All",
@@ -121,13 +121,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\DesignSystemProvider\\FluentDesignTheme.razor.js"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\DesignSystemProvider\\FluentDesignTheme.razor.js"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\Divider\\FluentDivider.razor.js",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\Divider\\FluentDivider.razor.js",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "Components/Divider/FluentDivider.razor.js",
       "AssetKind": "All",
@@ -140,13 +140,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\Divider\\FluentDivider.razor.js"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\Divider\\FluentDivider.razor.js"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\Grid\\FluentGrid.razor.js",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\Grid\\FluentGrid.razor.js",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "Components/Grid/FluentGrid.razor.js",
       "AssetKind": "All",
@@ -159,13 +159,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\Grid\\FluentGrid.razor.js"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\Grid\\FluentGrid.razor.js"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\HorizontalScroll\\FluentHorizontalScroll.razor.js",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\HorizontalScroll\\FluentHorizontalScroll.razor.js",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "Components/HorizontalScroll/FluentHorizontalScroll.razor.js",
       "AssetKind": "All",
@@ -178,13 +178,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\HorizontalScroll\\FluentHorizontalScroll.razor.js"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\HorizontalScroll\\FluentHorizontalScroll.razor.js"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\InputFile\\FluentInputFile.razor.js",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\InputFile\\FluentInputFile.razor.js",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "Components/InputFile/FluentInputFile.razor.js",
       "AssetKind": "All",
@@ -197,13 +197,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\InputFile\\FluentInputFile.razor.js"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\InputFile\\FluentInputFile.razor.js"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\Label\\FluentInputLabel.razor.js",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\Label\\FluentInputLabel.razor.js",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "Components/Label/FluentInputLabel.razor.js",
       "AssetKind": "All",
@@ -216,13 +216,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\Label\\FluentInputLabel.razor.js"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\Label\\FluentInputLabel.razor.js"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\List\\FluentAutocomplete.razor.js",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\List\\FluentAutocomplete.razor.js",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "Components/List/FluentAutocomplete.razor.js",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\List\\FluentAutocomplete.razor.js"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\List\\FluentAutocomplete.razor.js"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\Menu\\FluentMenu.razor.js",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\Menu\\FluentMenu.razor.js",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "Components/Menu/FluentMenu.razor.js",
       "AssetKind": "All",
@@ -254,13 +254,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\Menu\\FluentMenu.razor.js"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\Menu\\FluentMenu.razor.js"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\NavMenu\\FluentNavMenu.razor.js",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\NavMenu\\FluentNavMenu.razor.js",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "Components/NavMenu/FluentNavMenu.razor.js",
       "AssetKind": "All",
@@ -273,13 +273,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\NavMenu\\FluentNavMenu.razor.js"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\NavMenu\\FluentNavMenu.razor.js"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\Overflow\\FluentOverflow.razor.js",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\Overflow\\FluentOverflow.razor.js",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "Components/Overflow/FluentOverflow.razor.js",
       "AssetKind": "All",
@@ -292,13 +292,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\Overflow\\FluentOverflow.razor.js"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\Overflow\\FluentOverflow.razor.js"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\Search\\FluentSearch.razor.js",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\Search\\FluentSearch.razor.js",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "Components/Search/FluentSearch.razor.js",
       "AssetKind": "All",
@@ -311,13 +311,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\Search\\FluentSearch.razor.js"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\Search\\FluentSearch.razor.js"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\Slider\\FluentSliderLabel.razor.js",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\Slider\\FluentSliderLabel.razor.js",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "Components/Slider/FluentSliderLabel.razor.js",
       "AssetKind": "All",
@@ -330,13 +330,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\Slider\\FluentSliderLabel.razor.js"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\Slider\\FluentSliderLabel.razor.js"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\Tabs\\FluentTab.razor.js",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\Tabs\\FluentTab.razor.js",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "Components/Tabs/FluentTab.razor.js",
       "AssetKind": "All",
@@ -349,13 +349,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\Tabs\\FluentTab.razor.js"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\Tabs\\FluentTab.razor.js"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\TextField\\FluentTextField.razor.js",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\TextField\\FluentTextField.razor.js",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "Components/TextField/FluentTextField.razor.js",
       "AssetKind": "All",
@@ -368,13 +368,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Components\\TextField\\FluentTextField.razor.js"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Components\\TextField\\FluentTextField.razor.js"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\css\\reboot.css",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\css\\reboot.css",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "css/reboot.css",
       "AssetKind": "All",
@@ -387,13 +387,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\css\\reboot.css"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\css\\reboot.css"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\js\\initializersLoader.webview.js",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\js\\initializersLoader.webview.js",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "js/initializersLoader.webview.js",
       "AssetKind": "All",
@@ -406,13 +406,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\js\\initializersLoader.webview.js"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\js\\initializersLoader.webview.js"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\js\\loading-theme.js",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\js\\loading-theme.js",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "js/loading-theme.js",
       "AssetKind": "All",
@@ -425,13 +425,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\js\\loading-theme.js"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\js\\loading-theme.js"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Microsoft.FluentUI.AspNetCore.Components.bundle.scp.css",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Microsoft.FluentUI.AspNetCore.Components.bundle.scp.css",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "Microsoft.FluentUI.AspNetCore.Components.bundle.scp.css",
       "AssetKind": "All",
@@ -444,13 +444,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Microsoft.FluentUI.AspNetCore.Components.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Microsoft.FluentUI.AspNetCore.Components.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Microsoft.FluentUI.AspNetCore.Components.lib.module.js",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Microsoft.FluentUI.AspNetCore.Components.lib.module.js",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "Microsoft.FluentUI.AspNetCore.Components.lib.module.js",
       "AssetKind": "All",
@@ -463,13 +463,13 @@
       "AssetTraitValue": "JSLibraryModule",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Microsoft.FluentUI.AspNetCore.Components.lib.module.js"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Microsoft.FluentUI.AspNetCore.Components.lib.module.js"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Microsoft.FluentUI.AspNetCore.Components.lib.module.js.LEGAL.txt",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Microsoft.FluentUI.AspNetCore.Components.lib.module.js.LEGAL.txt",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "Microsoft.FluentUI.AspNetCore.Components.lib.module.js.LEGAL.txt",
       "AssetKind": "All",
@@ -482,13 +482,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Microsoft.FluentUI.AspNetCore.Components.lib.module.js.LEGAL.txt"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Microsoft.FluentUI.AspNetCore.Components.lib.module.js.LEGAL.txt"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Microsoft.FluentUI.AspNetCore.Components.lib.module.js.map",
+      "Identity": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Microsoft.FluentUI.AspNetCore.Components.lib.module.js.map",
       "SourceId": "Microsoft.FluentUI.AspNetCore.Components",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.FluentUI.AspNetCore.Components",
       "RelativePath": "Microsoft.FluentUI.AspNetCore.Components.lib.module.js.map",
       "AssetKind": "All",
@@ -501,13 +501,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.0\\staticwebassets\\Microsoft.FluentUI.AspNetCore.Components.lib.module.js.map"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components\\4.3.1\\staticwebassets\\Microsoft.FluentUI.AspNetCore.Components.lib.module.js.map"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\obj\\Debug\\net8.0\\jsmodules\\jsmodules.build.manifest.json",
+      "Identity": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\obj\\Debug\\net8.0\\jsmodules\\jsmodules.build.manifest.json",
       "SourceId": "CloneTGDD.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\obj\\Debug\\net8.0\\jsmodules\\",
+      "ContentRoot": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\obj\\Debug\\net8.0\\jsmodules\\",
       "BasePath": "_content/CloneTGDD.Web",
       "RelativePath": "CloneTGDD.Web.modules.json",
       "AssetKind": "Build",
@@ -523,10 +523,10 @@
       "OriginalItemSpec": "obj\\Debug\\net8.0\\jsmodules\\jsmodules.build.manifest.json"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CloneTGDD.Web.styles.css",
+      "Identity": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CloneTGDD.Web.styles.css",
       "SourceId": "CloneTGDD.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/CloneTGDD.Web",
       "RelativePath": "CloneTGDD.Web.styles.css",
       "AssetKind": "All",
@@ -539,13 +539,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CloneTGDD.Web.styles.css"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CloneTGDD.Web.styles.css"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CloneTGDD.Web.bundle.scp.css",
+      "Identity": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CloneTGDD.Web.bundle.scp.css",
       "SourceId": "CloneTGDD.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/CloneTGDD.Web",
       "RelativePath": "CloneTGDD.Web.bundle.scp.css",
       "AssetKind": "All",
@@ -558,13 +558,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CloneTGDD.Web.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CloneTGDD.Web.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\wwwroot\\app.css",
       "SourceId": "CloneTGDD.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\wwwroot\\",
       "BasePath": "_content/CloneTGDD.Web",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -580,10 +580,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "CloneTGDD.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\wwwroot\\",
       "BasePath": "_content/CloneTGDD.Web",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -599,10 +599,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "CloneTGDD.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\wwwroot\\",
       "BasePath": "_content/CloneTGDD.Web",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -618,10 +618,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\wwwroot\\favicon.png",
       "SourceId": "CloneTGDD.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\wwwroot\\",
       "BasePath": "_content/CloneTGDD.Web",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -637,10 +637,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\wwwroot\\js\\Interop.js",
+      "Identity": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\wwwroot\\js\\Interop.js",
       "SourceId": "CloneTGDD.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DungBui\\Desktop\\New folder\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tuivo\\Desktop\\TGDD_Clone_dotnet_Aspire\\source\\CloneTGDD.Web\\wwwroot\\",
       "BasePath": "_content/CloneTGDD.Web",
       "RelativePath": "js/Interop.js",
       "AssetKind": "All",
